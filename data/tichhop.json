@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Trường THPT Mạc Đĩnh Chi",
+        "nv1": 26.25,
+        "nv2": 26.75,
+        "nv3": 27.0
+    },
+    {
+        "name": "Trường THPT Gia Định",
+        "nv1": 31.0,
+        "nv2": 31.5,
+        "nv3": 31.75
+    },
+    {
+        "name": "Trường THPT Nguyễn Thượng Hiền",
+        "nv1": 30.75,
+        "nv2": 31.0,
+        "nv3": 31.25
+    },
+    {
+        "name": "Trường THPT Nguyễn Hữu Huân",
+        "nv1": 29.25,
+        "nv2": 30.25,
+        "nv3": 31.0
+    },
+    {
+        "name": "Trường THPT Bùi Thị Xuân",
+        "nv1": 31.25,
+        "nv2": 31.75,
+        "nv3": 32.0
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "nv1": 31.75,
+        "nv2": 32.25,
+        "nv3": 32.5
+    },
+    {
+        "name": "Trường THPT Lương Thế Vinh",
+        "nv1": 27.75,
+        "nv2": 28.5,
+        "nv3": 29.25
+    },
+    {
+        "name": "Trường THPT Nguyễn Thị Minh Khai",
+        "nv1": 32.75,
+        "nv2": 33.25,
+        "nv3": 33.5
+    },
+    {
+        "name": "Trung học Thực hành Sài Gòn",
+        "nv1": 29.5,
+        "nv2": 30.0,
+        "nv3": 30.5
+    },
+    {
+        "name": "Trường THPT Phú Nhuận",
+        "nv1": 29.75,
+        "nv2": 30.25,
+        "nv3": 30.75
+    }
+]

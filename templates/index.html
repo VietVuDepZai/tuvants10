@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admis</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <style>
+        .bigser {
+            margin: 0 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .services {
+            width: 32%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .service {
+            width: 100%;
+            height: 179px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .service .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+
+        .service .icon img {
+            width: 100%;
+            /* height: 100%; */
+            fill: #ff5722;
+            border-radius: 50%;
+        }
+
+        .service h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .red {
+            color: rgb(218, 30, 30) !important;
+        }
+        .service p {
+            line-height: 1.6;
+            color: #555;
+        }
+        .sec-icon::before {
+            content: "";
+            position: absolute;
+            height: 1px;
+            left: -70px;
+            margin-top: -5.5px;
+            top: 60%;
+            background: #333333;
+            width: 50px;
+        }
+        .sec-icon::after {
+            content: "";
+            position: absolute;
+            height: 1px;
+            right: -70px;
+            margin-top: -5.5px;
+            top: 60%;
+            background: #333;
+            width: 50px;
+        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .services {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            .service {
+                width: 90%;
+            }
+            
+        .header h1 {
+            font-size: 2em;
+            color: #0b5091;
+        }
+        .sec-icon {
+            position: relative;
+            display: inline-block;
+            padding: 0;
+            margin: 0 auto;
+        }
+        }
+        .servi-title {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+        .sec-icon {
+            position: relative;
+            display: inline-block;
+            padding: 0;
+            margin: 0 auto;
+        }
+        body {
+            font-family: 'Varela Round', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e1e1e1;
+        }
+        .additional-input {
+            display: none;
+        }
+        .autocomplete-items {
+            z-index: 99;
+            top: 100%; /* Below the input */
+            left: 0;
+            right: 0;
+            background: white;
+            overflow-y: scroll;
+        }
+        .autocomplete-items::-webkit-scrollbar {
+            display: none; /* For Chrome, Safari, and Opera */
+        }
+        .autocomplete-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .autocomplete-item:hover {
+            background-color: #f1f1f1;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2c3e50;
+            padding: 10px 20px;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header {
+            text-align: center;
+            font-family: 'Varela Round', sans-serif;
+            text-transform: uppercase;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #0b5091;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .logo h1 {
+            color: white;
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+
+        .menu li {
+            margin-left: 20px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+
+        .menu .login-button {
+            background-color: #00C853;
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu .login-button:hover {
+            background-color: #019b41;
+        }
+
+        .menu-icon {
+            display: none;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+        .form-container {
+            padding: 20px;
+            max-width: 600px;
+            margin: 40px auto;
+            background: linear-gradient(97.26deg, #ece9ff 9.55%, #e5fffe 95.19%);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-submit {
+            border: none;
+            border-radius: 60px;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, .18);
+            color: #fff;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 33px;
+            padding: 15px 60px;
+            background: linear-gradient(0deg,#3955ff,#91efff);
+            position: relative;
+            text-align: center;
+            text-transform: uppercase;
+            margin: auto;
+        }
+        .form-header {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+            background: linear-gradient(90.15deg, red 32.92%, #ff3a3a 64.3%, #ff005c 98.26%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border: 2px solid transparent; /* Add border if you want */
+            padding: 5px 15px;
+            border-radius: 40px;
+            box-shadow: -1.6px 3.2px 3.2px rgba(0, 0, 0, 0.18);
+            display: block;
+            width: 104px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        input:focus, select:focus {
+            border-color: #00C853;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 200, 83, 0.5);
+        }
+        .loading {
+            width: 50px; /* Adjust size as needed */
+            height: 50px; /* Adjust size as needed */
+            border: 8px solid #f3f3f3; /* Light grey */
+            border-top: 8px solid #8511d2; /* Blue */
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 40px auto; /* Center it horizontally */
+        }
+        #nv1-container .service {
+            background: #0055ff54;
+        }
+        #nv2-container .service {
+            background: #f7ff00cf;
+        }
+        #nv3-container .service {
+            background: #ff000057;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .copyright {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+        .additional-input {
+            display: none;
+        }
+        @media (max-width: 868px) {
+            .form-container {
+                padding: 20px !important;
+                width: 90% !important;
+                margin: 20px auto !important;
+            }
+
+            .menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                background-color: #2c3e50;
+                width: 100%;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                padding: 10px;
+                z-index: 9;
+            }   
+            .subtab {
+                margin: auto;
+            }
+
+            .menu li {
+                margin-bottom: 10px;
+            }
+
+            .menu li:last-child {
+                margin-bottom: 0;
+            }
+
+            .menu a {
+                padding: 10px 20px;
+                display: block;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+
+            .navbar {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .navbar.active .menu {
+                display: flex;
+            }
+        }
+        #rescon {
+            display: none;
+        }
+        .subtab {
+            margin-top: 20px;
+            display: flex;
+            width: 439px;
+            justify-content: space-around;
+        }
+
+        .subtab .tab {
+            display: block;
+            background: #80a7e9;
+            padding: 10px 15px;
+            border-radius: 7px;
+            position: relative;
+        }
+        .subtab .tab .tabcontent {
+            background: white;
+            position: absolute;
+            height: 194px;
+            border-radius: 10px;
+            top: 60px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .subtab .tab:nth-child(1) .tabcontent {
+            left: 0;
+            width: 427px;
+            display: none; /* Initially hidden */
+        }
+
+        .subtab .tab:nth-child(2) .tabcontent {
+            left: -143px;
+            width: 427px;
+            display: none; /* Initially hidden */
+        }
+        .subtab .tab:nth-child(3) .tabcontent {
+            right: 0;
+            width: 427px;
+            display: none; /* Initially hidden */
+        }
+        .subtab .tab:hover .tabcontent {
+            display: block; /* Show on hover */
+        }
+        .subtab .tabcontent .title {
+            margin: 0;
+            padding: 10px 15px;
+        }
+        .subtab .tabcontent::before {
+            content: "";
+            position: absolute;
+            border-width: 10px;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            border-bottom: 20px solid white;
+        } 
+        .subtab .tab:nth-child(3) .tabcontent::before {
+            top: -20px;
+            right: 10px;
+        }   
+        .subtab .tab:nth-child(2) .tabcontent::before {
+            top: -20px;
+            right: 156px;
+        }  
+        .subtab .tab:nth-child(1) .tabcontent::before {
+            top: -20px;
+            left: 10px;
+        } 
+        .tabconnon::-webkit-scrollbar {
+            display: none;
+        }
+        .tabconnon {
+            overflow-y: scroll;
+            height: 100%
+        }
+        .banner-card {
+            display: none; /* Hide the banner by default */
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 20px 0;
+            min-width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            }
+            .right {
+                float: right;
+            }
+            .right .banner-card {
+                margin-right: 10px;
+            }
+            .banner {
+                margin-top:  30px;
+            }
+            @media (min-width: 1270px) {
+            .banner-card {
+                display: block; /* Show the banner when width is 1000px or more */
+            }
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href='/' class="logo">
+            <h1>Admis</h1>
+        </a>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+        <ul class="menu" id="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Đánh giá</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#" class="login-button">Trợ lý ảo Admis</a></li>
+        </ul>
+    </nav>
+    <div class="subtab">
+        <div class="tab">
+            <span>TS10 Thường</span>
+            <div class="tabcontent">
+                <h3 class="title">TS10 Thường</h3>
+                <p class="title">Thí sinh thực hiện 3 bài thi gồm: Ngữ văn, Toán và Ngoại ngữ.</p>
+                <p class="title red"> Điểm xét tuyển = điểm Ngữ văn + điểm Ngoại ngữ + điểm Toán + điểm ưu tiên (nếu có).</p>
+            </div>
+        </div>
+        <div class="tab">
+            <span>TS10 Chuyên</span> 
+            <div class="tabcontent">
+                <h3 class="title" style="padding: 5px 15px; text-align: center;">TS10 Chuyên</h3>
+                <p class="title" style="padding: 5px 15px;">Các môn thi chuyên gồm Ngữ văn, Toán, Vật lý, Hóa học, Sinh học, Lịch sử, Địa lý, tiếng Anh, tiếng Trung, tiếng Nhật, tiếng Pháp, Tin học.
+                    Thí sinh thực hiện 3 bài thi gồm: Ngữ văn, Toán và Ngoại ngữ cùng một môn chuyên.</p>
+                <p class="title red" style="padding: 5px 15px;"> Điểm xét tuyển = điểm Ngữ văn + điểm Ngoại ngữ + điểm Toán + (điểm môn chuyên x2)</p>
+            </div>
+        </div>
+     <div class="tab">
+            <span>TS10 Tích hợp</span>
+            <div class="tabcontent">
+                <div class="tabconnon">
+                    <h3 class="title" style="text-align: right;">TS10 Tích hợp</h3>
+                    <p class="title">Đối với Nhóm 1 (Học sinh có tham gia học chương trình Tiếng Anh tích hợp cấp THCS tại TP Hồ Chí Minh):</p>
+                    <p class="title red">        Điểm xét tuyển = điểm Ngữ văn + điểm Ngoại ngữ + điểm Toán + điểm trung bình của chương trình tiếng Anh tích hợp lớp 9 THCS.
+                    </p>
+                    <p class="title">Đối với Nhóm 2 (Học sinh không tham gia học chương trình Tiếng Anh tích hợp cấp THCS tại TP Hồ Chí Minh):</p>
+                    <p class="title red"> Điểm xét tuyển = điểm Ngữ văn + điểm Ngoại ngữ + điểm Toán + điểm bài thi môn Tiếng Anh tích hợp.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+      <!-- New card/banner -->
+       <div class="banner right">
+        <div class="banner-card">
+            <!-- Content for the banner -->
+            <h2>Quảng cáo tới đâyyy!!</h2>
+            <p>Loa loa loa loa loa📢</p>
+          </div> 
+       </div>
+
+    <div class="form-container">
+        <div style="    display: flex;
+        justify-content: space-between;
+        margin-bottom: 13px;
+        border-bottom: 1px solid;">     
+            <h2 style="    text-align: center; margin-bottom: 5px;">Số người tra cứu:</h2>
+            <div class="form-header" id="visit">{{ visitor_count }}</div>
+        </div>
+        <form method="post" action="/ans" id="resultForm" onsubmit="submitForm(event)">
+            {% csrf_token %}
+            <label for="loai-hinh">Loại hình:</label>
+            <select id="loai-hinh" name="loai-hinh" onchange="showAdditionalInput()">
+                <option value="ts10-thuong">TS10 thường</option>
+                <option value="ts10-chuyen">TS10 chuyên</option>
+                <option value="ts10-tich-hop">TS10 tích hợp</option>
+            </select>
+            <label for="diem-toan">Điểm Toán:</label>
+            <input type="number" id="diem-toan" name="diem-toan" placeholder="Nhập điểm Toán: (VD: 1 - 10)">
+
+            <label for="diem-ngu-van">Điểm Ngữ văn:</label>
+            <input type="number" id="diem-ngu-van" name="diem-ngu-van" placeholder="Nhập điểm Văn: (VD: 1 - 10)">
+
+            <label for="diem-ngoai-ngu">Điểm Ngoại Ngữ:</label>
+            <input type="number" id="diem-ngoai-ngu" name="diem-ngoai-ngu" placeholder="Nhập điểm Anh: (VD: 1 - 10)">
+            
+            <div id="additional-input" class="additional-input">
+                <label for="mon-chuyen" style="    margin-bottom: 11px;display: block;">Môn chuyên:</label>
+                <select id="chuyensub" name="mon-chuyen" style="width: 100%;">
+                    {% for subject in subjects %}
+                    <option value="{{subject.name}}">Chuyên {{subject.name}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div id="additional-score-input" class="additional-input">
+                <label for="diem-mon-chuyen" style="    margin-bottom: 11px;display: block;">Nhập điểm:</label>
+                <input type="number" id="diem-mon-chuyen" style="width: 96%;" name="diem-mon-chuyen" placeholder="Nhập điểm môn chuyên (1 - 10)">
+            </div>
+
+
+            <div id="tichhopscore" class="additional-input">
+                <label for="diem-tichhop" style="    margin-bottom: 11px;display: block;">Nhập điểm thi tích hợp:</label>
+                <input type="number" id="diem-tichhop" style="width: 96%;" name="diem-tichhop" placeholder="VD: (1 - 10)">
+            </div>
+            <label for="diem-tong">Điểm Tổng:</label>
+            <input type="number" id="diem-tong" name="diem-tong" placeholder="Tổng điểm sau khi nhập" readonly>
+    
+            <label for="address">Địa chỉ: </label>
+            <input type="text" id="address" name="address" placeholder="Nhập địa chỉ" autocomplete="off">
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+            <label for="quan">Quận / Huyện:</label>
+            <select id="quan" name="quan" style="width: 100%;">
+                {% for district in districts %}
+                <option value="{{district.name}}">Quận {{district.name}}</option>
+                {% endfor %}
+                <option value="TP. Thủ Đức">TP. Thủ Đức</option>
+            </select>
+          <button type="submit" class="btn-submit" id="submit">Xem ngay</button>
+        </form>
+    </div>
+   <div id="rescon">
+        <div class="header">
+            <h1>Nguyện vọng tham khảo</h1>
+            <p class="sec-icon"><i class="fa-solid fa-gear"></i></p>
+        </div>
+        <div class="bigser" id="dung">
+            <div id="nv1-container" class="services">
+                <h3 class="servi-title">Nguyện vọng 1</h3>
+                <!-- NV1 results will be displayed here -->
+            </div>
+            <div id="nv2-container" class="services">
+                <h3 class="servi-title">Nguyện vọng 2</h3>
+                <!-- NV2 results will be displayed here -->
+            </div>
+            <div id="nv3-container" class="services">
+                <h3 class="servi-title">Nguyện vọng 3</h3>
+                <!-- NV3 results will be displayed here -->
+            </div>
+        </div>  
+    </div>
+    <div class="copyright">
+        &copy; 2024 Admis. All rights reserved.
+    </div>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core-legacy.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service-legacy.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        const platform = new H.service.Platform({
+            'apikey': 'FKJdByW7d_QmFSdN8y8dF2f4x7pVNMHtgXb8O7Yr3So'
+        });
+    
+        const service = platform.getSearchService();
+        const input = document.getElementById('address');
+    
+        input.addEventListener('input', function() {
+            const query = input.value;
+    
+            if (query.length > 2) {
+                service.autosuggest({
+                    q: query,
+                    at: '10.7769,106.7009', // Coordinates for Ho Chi Minh City, Vietnam
+                    in: 'countryCode:VNM', // Limit results to Vietnam
+                }, (result) => {
+                    const suggestions = result.items.map(item => item.title);
+                    const topSuggestions = suggestions.slice(0, 3); // Get the top 3 suggestions
+                    showSuggestions(topSuggestions);
+                });
+            }
+        });
+    
+        function showSuggestions(suggestions) {
+            const autocompleteList = document.getElementById('autocomplete-list');
+            autocompleteList.innerHTML = '';
+    
+            suggestions.forEach(suggestion => {
+                const div = document.createElement('div');
+                div.className = 'autocomplete-item';
+                div.textContent = suggestion;
+    
+                div.addEventListener('click', () => {
+                    input.value = suggestion;
+                    autocompleteList.innerHTML = '';
+                });
+    
+                autocompleteList.appendChild(div);
+            });
+        }
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            const windowWidth = window.innerWidth;
+
+            // Check if window width is greater than 868px
+            if (windowWidth > 868) {
+                menu.style.display = 'flex';
+            } else {
+                // Toggle menu visibility based on current display property
+                if (menu.style.display === '' || menu.style.display === 'none') {
+                    menu.style.display = 'flex';
+                } else {
+                    menu.style.display = 'none';
+                }
+            }
+        }
+        window.addEventListener('resize', toggleMenu);
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const visitorCountElement = document.getElementById('visit');
+            const visitorCount = parseInt(visitorCountElement.innerText, 10);
+            visitorCountElement.innerText = visitorCount.toLocaleString(); // Format with commas
+        });
+    </script>
+    <script>
+        function showAdditionalInput() {
+            const selectedValue = document.getElementById('loai-hinh').value;
+            const additionalInput = document.getElementById('additional-input');
+            const additionalScoreInput = document.getElementById('additional-score-input');
+            const tichhop = document.getElementById('tichhop');
+            const tichhopscore = document.getElementById('tichhopscore');
+            if (selectedValue === 'ts10-chuyen') {
+                additionalInput.style.display = 'block';
+                additionalScoreInput.style.display = 'block';
+                tichhopscore.style.display = 'none';
+            } else if (selectedValue === 'ts10-tich-hop') {
+                additionalInput.style.display = 'none';
+                additionalScoreInput.style.display = 'none';
+                tichhopscore.style.display = 'block';
+            } else {
+                additionalInput.style.display = 'none';
+                additionalScoreInput.style.display = 'none';
+                tichhopscore.style.display = 'none';
+            }
+    
+            // Update total score when the selection changes
+            calculateTotalScore();
+        }
+    
+        function calculateTotalScore() {
+            const selectedValue = document.getElementById('loai-hinh').value;
+            const diemToan = parseFloat(document.getElementById('diem-toan').value) || 0;
+            const diemNguVan = parseFloat(document.getElementById('diem-ngu-van').value) || 0;
+            const diemNgoaiNgu = parseFloat(document.getElementById('diem-ngoai-ngu').value) || 0;
+    
+            let totalScore = diemToan + diemNguVan + diemNgoaiNgu;
+    
+            // Add 'diem-mon-chuyen' only if 'TS10 chuyên' is selected
+            if (selectedValue === 'ts10-chuyen') {
+                const diemMonChuyen = parseFloat(document.getElementById('diem-mon-chuyen').value);
+                totalScore += diemMonChuyen * 2;
+            } else if (selectedValue === 'ts10-tich-hop') {
+                const diemMonChuyen = parseFloat(document.getElementById('diem-tichhop').value);
+                totalScore += diemMonChuyen;
+            }
+            document.getElementById('diem-tong').value = totalScore;
+        }
+    
+        function validateScores() {
+            const selectedValue = document.getElementById('loai-hinh').value;
+            const diemToan = document.getElementById('diem-toan').value;
+            const diemNguVan = document.getElementById('diem-ngu-van').value;
+            const diemNgoaiNgu = document.getElementById('diem-ngoai-ngu').value;
+            const diemMonChuyen = document.getElementById('diem-mon-chuyen').value;
+            const diemTichHop = document.getElementById('diem-tichhop').value;
+            const address = document.getElementById('address').value;
+            // Check if address is blank
+            if (address.trim() === "") {
+                swal("Cảnh báo!!", "Địa chỉ không được để trống!!", "warning");
+                return false; // Prevent further action if validation fails
+            }
+            var scores = []
+            if (selectedValue === 'ts10-chuyen') var scores = [diemToan, diemNguVan, diemNgoaiNgu, diemMonChuyen];
+            else if (selectedValue === 'ts10-tich-hop') var scores = [diemToan, diemNguVan, diemNgoaiNgu, diemTichHop];
+            else var scores = [diemToan, diemNguVan, diemNgoaiNgu];
+
+            for (let score of scores) {
+                if (score === "") {
+                    swal("Cảnh báo!!", "Điểm không được để trống!!", "warning");
+                    return false; // Prevent further action if validation fails
+                }
+
+                const numericScore = parseFloat(score);
+                if (isNaN(numericScore) || numericScore < 1 || numericScore > 10) {
+                    swal("Cảnh báo!!", "Điểm phải nằm trong khoảng từ 1 đến 10!!", "warning");
+                    return false; // Prevent further action if validation fails
+                }
+            }
+            return true; // Validation passed
+        }
+
+        // Add event listeners to update the score dynamically
+        document.getElementById('loai-hinh').addEventListener('change', showAdditionalInput);
+        document.getElementById('diem-toan').addEventListener('input', calculateTotalScore);
+        document.getElementById('diem-ngu-van').addEventListener('input', calculateTotalScore);
+        document.getElementById('diem-ngoai-ngu').addEventListener('input', calculateTotalScore);
+        document.getElementById('diem-mon-chuyen').addEventListener('input', calculateTotalScore);
+        document.getElementById('diem-tichhop').addEventListener('input', calculateTotalScore);
+    
+        // Call validateScores() before calculating total score or submitting form
+        function submitForm(event) {
+            event.preventDefault(); // Prevent the default form submission
+            if (validateScores()) {
+                const formData = new FormData(document.getElementById('resultForm'));
+                document.getElementById('rescon').style.display = "block";
+                const dung = document.getElementById('dung')
+                const selectedValue = document.getElementById('loai-hinh').value;
+                if (selectedValue != 'ts10-chuyen') {
+                    const nv1Container = document.getElementById('nv1-container');
+                    const nv2Container = document.getElementById('nv2-container');
+                    const nv3Container = document.getElementById('nv3-container');
+                    nv1Container.innerHTML += `
+                        <div class="service loading1">
+                            <div class="loading"></div>
+                            <h2>Bạn hãy chờ một chút nhé!!</h2>
+                        </div>
+                    `;
+                    nv2Container.innerHTML += `
+                        <div class="service loading1">
+                            <div class="loading"></div>
+                            <h2>Bạn hãy chờ một chút nhé!!</h2>
+                        </div>
+                    `;
+                    nv3Container.innerHTML += `
+                        <div class="service loading1">
+                            <div class="loading"></div>
+                            <h2>Bạn hãy chờ một chút nhé!!</h2>
+                        </div>
+                    `;
+                } else {
+                    document.getElementById("nv3-container").remove();
+                    const nv1Container = document.getElementById('nv1-container');
+                    const nv2Container = document.getElementById('nv2-container');
+                    nv1Container.style.width = '49%'
+                    nv2Container.style.width = '49%'
+                    nv1Container.innerHTML += `
+                        <div class="service loading1">
+                            <div class="loading"></div>
+                            <h2>Bạn hãy chờ một chút nhé!!</h2>
+                        </div>
+                    `;
+                    nv2Container.innerHTML += `
+                        <div class="service loading1">
+                            <div class="loading"></div>
+                            <h2>Bạn hãy chờ một chút nhé!!</h2>
+                        </div>
+                    `;
+                }
+
+                const element = document.getElementById("rescon");
+
+                // Scroll to the element
+                element.scrollIntoView();
+                fetch('/ans', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'X-CSRFToken': '{{ csrf_token }}' // Include the CSRF token if using Django
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Handle the response data here
+                    console.log(data); // You can log it for debugging
+                    updateDisplay(data); // Function to display results on the page
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            }
+        }
+        function updateDisplay(data) {
+            const selectedValue = document.getElementById('loai-hinh').value;
+            const nv1Container = document.getElementById('nv1-container');
+            const nv2Container = document.getElementById('nv2-container');
+            const loading = document.getElementsByClassName('loading1');
+            const bigcon = document.getElementById('rescon');
+            for (let index = 0; index < loading.length; index++) {
+                loading[index].style.display = 'none';
+            }
+            // Parse JSON data
+            const nv1s = JSON.parse(data.nv1s);
+            const nv2s = JSON.parse(data.nv2s);
+
+            if (nv1s.length == 0 || nv2s.length == 0) {
+                bigcon.innerHTML += `
+                <div class="bigser service" style="width: unset; height: unset">
+                    <h2 style="width: 100%; margin: 0">Bạn nên ôn tập thêm vì điểm của chưa đủ</h2>
+                    <h2 style="width: 100%; margin: 0">để vào được trường chuyên như bạn mong muốn</h2>
+                    <h2 style="width: 100%; margin: 0">Cố lên nhé!!😇</h2>
+                </div>`
+            }
+            // Display NV1 results (maximum 3)
+            nv1s.slice(0, 3).forEach(nv1 => {
+                nv1Container.innerHTML += `
+                    <div class="service">
+                        <div class="icon">
+                            <img src="https://res.cloudinary.com/dyiesiahu/image/upload/v1/${nv1["image"]}" alt="">
+                        </div>
+                        <h2>${nv1["name"]}</h2>
+                        <h2 class="red">${nv1["distance"]}</h2>
+                    </div>
+                `;
+            });
+            
+            // Display NV2 results (maximum 3)
+            nv2s.slice(0, 3).forEach(nv2 => {
+                nv2Container.innerHTML += `
+                    <div class="service">
+                        <div class="icon">
+                            <img src="https://res.cloudinary.com/dyiesiahu/image/upload/v1/${nv2["image"]}" alt="">
+                        </div>
+                        <h2>${nv2["name"]}</h2>
+                        <h2 class="red">${nv2["distance"]}</h2>
+                    </div>
+                `;
+            });
+            if (selectedValue != 'ts10-chuyen') {
+                const nv3s = JSON.parse(data.nv3s);
+                const nv3Container = document.getElementById('nv3-container');
+                nv3s.slice(0, 3).forEach(nv3 => {
+                    nv3Container.innerHTML += `
+                        <div class="service">
+                            <div class="icon">
+                                <img src="https://res.cloudinary.com/dyiesiahu/image/upload/v1/${nv3["image"]}" alt="">
+                            </div>
+                            <h2>${nv3["name"]}</h2>
+                            <h2 class="red">${nv3["distance"]}</h2>
+                        </div>
+                    `;
+                });
+            }
+            // Display NV3 results (maximum 3)
+
+        }
+
+
+    </script>
+    
+</body>
+</html>

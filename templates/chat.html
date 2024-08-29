@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+    <style>
+        .bigser {
+            margin: 0 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        h3 {
+            font-size: 19px;
+        }
+        body {
+            line-height: normal !important;
+        }
+        .services {
+            width: 32%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .copyright {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+        .service {
+            width: 100%;
+            height: 179px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .service .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+
+        .service .icon img {
+            width: 100%;
+            height: 100%;
+            fill: #ff5722; /* Orange color */
+        }
+
+        .service h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .red {
+            color: rgb(218, 30, 30) !important;
+        }
+        .service p {
+            line-height: 1.6;
+            color: #555;
+        }
+        .sec-icon::before {
+            content: "";
+            position: absolute;
+            height: 1px;
+            left: -70px;
+            margin-top: -5.5px;
+            top: 60%;
+            background: #333333;
+            width: 50px;
+        }
+        .sec-icon::after {
+            content: "";
+            position: absolute;
+            height: 1px;
+            right: -70px;
+            margin-top: -5.5px;
+            top: 60%;
+            background: #333;
+            width: 50px;
+        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .services {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            .service {
+                width: 90%;
+            }
+            
+        .header h1 {
+            font-size: 2em;
+            color: #0b5091;
+        }
+        .sec-icon {
+            position: relative;
+            display: inline-block;
+            padding: 0;
+            margin: 0 auto;
+        }
+        }
+        .servi-title {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+        .sec-icon {
+            position: relative;
+            display: inline-block;
+            padding: 0;
+            margin: 0 auto;
+        }
+        body {
+            font-family: 'Varela Round', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .additional-input {
+            display: none;
+        }
+        .autocomplete-items {
+            z-index: 99;
+            top: 100%; /* Below the input */
+            left: 0;
+            right: 0;
+            background: white;
+            overflow-y: scroll;
+        }
+        .autocomplete-items::-webkit-scrollbar {
+            display: none; /* For Chrome, Safari, and Opera */
+        }
+        .autocomplete-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .autocomplete-item:hover {
+            background-color: #f1f1f1;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2c3e50;
+            padding: 10px 20px;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header {
+            text-align: center;
+            font-family: 'Varela Round', sans-serif;
+            text-transform: uppercase;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #0b5091;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .logo h1 {
+            color: white;
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+
+        .menu li {
+            margin-left: 20px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+
+        .menu .login-button {
+            background-color: #00C853;
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu .login-button:hover {
+            background-color: #019b41;
+        }
+
+        .menu-icon {
+            display: none;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+            margin-left: auto;
+        }
+        @media (max-width: 868px) {
+            .form-container {
+                padding: 20px !important;
+                width: 90% !important;
+                margin: 20px auto !important;
+            }
+
+            .menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                background-color: #2c3e50;
+                width: 100%;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                padding: 10px;
+                z-index: 9;
+            }   
+            .subtab {
+                margin: auto;
+            }
+
+            .menu li {
+                margin-bottom: 10px;
+            }
+
+            .menu li:last-child {
+                margin-bottom: 0;
+            }
+
+            .menu a {
+                padding: 10px 20px;
+                display: block;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+
+            .navbar {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .navbar.active .menu {
+                display: flex;
+            }
+        }
+        #rescon {
+            display: none;
+        }
+        .subtab {
+            margin-top: 20px;
+            display: flex;
+            width: 439px;
+            justify-content: space-around;
+        }
+
+        .subtab .tab {
+            display: block;
+            background: #80a7e9;
+            padding: 10px 15px;
+            border-radius: 7px;
+            position: relative;
+        }
+        .subtab .tab .tabcontent {
+            background: white;
+            position: absolute;
+            height: 194px;
+            border-radius: 10px;
+            top: 60px;
+            z-index: 10;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .subtab .tab:nth-child(1) .tabcontent {
+            left: 0;
+            width: 427px;
+            display: none; /* Initially hidden */
+        }
+
+        .subtab .tab:nth-child(2) .tabcontent {
+            left: -143px;
+            width: 427px;
+            display: none; /* Initially hidden */
+        }
+        .subtab .tab:nth-child(3) .tabcontent {
+            right: 0;
+            width: 427px;
+            display: none; /* Initially hidden */
+        }
+        .subtab .tab:hover .tabcontent {
+            display: block; /* Show on hover */
+        }
+        .subtab .tabcontent .title {
+            margin: 0;
+            padding: 10px 15px;
+        }
+        .subtab .tabcontent::before {
+            content: "";
+            position: absolute;
+            border-width: 10px;
+            border-left: 70px solid transparent;
+            border-right: 70px solid transparent;
+            border-bottom: 20px solid white;
+        } 
+        .subtab .tab:nth-child(3) .tabcontent::before {
+            top: -20px;
+            right: 0;
+        }   
+        .subtab .tab:nth-child(2) .tabcontent::before {
+            top: -20px;
+            right: 146px;
+        }  
+        .subtab .tab:nth-child(1) .tabcontent::before {
+            top: -20px;
+            left: 0;
+        } 
+        .tabconnon::-webkit-scrollbar {
+            display: none;
+        }
+        .tabconnon {
+            overflow-y: scroll;
+            height: 100%
+        }
+    </style>
+    <style>
+  
+
+
+        /* *******************************
+    message-area
+    ******************************** */
+    
+        .message-area {
+            padding: 30px 0;
+        }
+    
+        .chat-area {
+            position: relative;
+            width: 100%;
+            background-color: #fff;
+            border-radius: 0.3rem;
+            height: 80vh;
+            overflow: hidden;
+            min-height: calc(100% - 1rem);
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0.1, 0.1)
+        }
+    
+        .chatlist {
+            outline: 0;
+            height: 100%;
+            overflow: hidden;
+            width: 300px;
+            float: left;
+            padding: 15px;
+        }
+    
+        .chat-area .modal-content {
+            border: none;
+            border-radius: 0;
+            outline: 0;
+            height: 100%;
+        }
+    
+        .chat-area .modal-dialog-scrollable {
+            height: 100% !important;
+        }
+    
+        .chatbox {
+            width: auto;
+            overflow: hidden;
+            height: 100%;
+            border-left: 1px solid #ccc;
+        }
+    
+        .chatbox .modal-dialog,
+        .chatlist .modal-dialog {
+            max-width: 100%;
+            margin: 0;
+        }
+    
+        .msg-search {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .chat-area .form-control {
+            display: block;
+            width: 80%;
+            padding: 0.375rem 0.75rem;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #222;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ccc;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+    
+        .chat-area .form-control:focus {
+            outline: 0;
+            box-shadow: inherit;
+        }
+    
+        a.add img {
+            height: 36px;
+        }
+    
+        .chat-area .nav-tabs {
+            border-bottom: 1px solid #dee2e6;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: inherit;
+        }
+    
+        .chat-area .nav-tabs .nav-item {
+            width: 100%;
+        }
+    
+        .chat-area .nav-tabs .nav-link {
+            width: 100%;
+            color: #180660;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.5;
+            text-transform: capitalize;
+            margin-top: 5px;
+            margin-bottom: -1px;
+            background: 0 0;
+            border: 1px solid transparent;
+            border-top-left-radius: 0.25rem;
+            border-top-right-radius: 0.25rem;
+        }
+    
+        .chat-area .nav-tabs .nav-item.show .nav-link,
+        .chat-area .nav-tabs .nav-link.active {
+            color: #222;
+            background-color: #fff;
+            border-color: transparent transparent #000;
+        }
+    
+        .chat-area .nav-tabs .nav-link:focus,
+        .chat-area .nav-tabs .nav-link:hover {
+            border-color: transparent transparent #000;
+            isolation: isolate;
+        }
+    
+        .chat-list h3 {
+            color: #222;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            text-transform: capitalize;
+            margin-bottom: 0;
+        }
+    
+        .chat-list p {
+            color: #343434;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            text-transform: capitalize;
+            margin-bottom: 0;
+        }
+    
+        .chat-list a.d-flex {
+            margin-bottom: 15px;
+            position: relative;
+            text-decoration: none;
+        }
+    
+        .chat-list .active {
+            display: block;
+            content: '';
+            clear: both;
+            position: absolute;
+            bottom: 3px;
+            left: 34px;
+            height: 12px;
+            width: 12px;
+            background: #00DB75;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+    
+        .msg-head h3 {
+            color: #222;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+    
+        .msg-head p {
+            color: #343434;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            text-transform: capitalize;
+            margin-bottom: 0;
+        }
+    
+        .msg-head {
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+        }
+    
+        .moreoption {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+    
+        .moreoption .navbar {
+            padding: 0;
+        }
+    
+        .moreoption li .nav-link {
+            color: #222;
+            font-size: 16px;
+        }
+    
+        .moreoption .dropdown-toggle::after {
+            display: none;
+        }
+    
+        .moreoption .dropdown-menu[data-bs-popper] {
+            top: 100%;
+            left: auto;
+            right: 0;
+            margin-top: 0.125rem;
+        }
+    
+        .msg-body ul {
+            overflow: hidden;
+        }
+    
+        .msg-body ul li {
+            list-style: none;
+            margin: 15px 0;
+        }
+    
+        .msg-body ul p.sender {
+            display: block;
+            width: 100%;
+            position: relative;
+        }
+    
+        .msg-body ul#chatLog:before {
+            display: block;
+            clear: both;
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: -7px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 12px 15px 12px;
+            border-color: transparent transparent #f5f5f5 transparent;
+            -webkit-transform: rotate(-37deg);
+            -ms-transform: rotate(-37deg);
+            transform: rotate(-37deg);
+        }
+    
+        .msg-body ul .sender {
+            color: #000;
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: 400;
+            padding: 15px;
+            background: #f5f5f5;
+            display: inline-block;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-bottom: 0;
+        }
+    
+        .msg-body ul .sender b {
+            display: block;
+            color: #180660;
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+    
+        .msg-body ul .repaly {
+            display: block;
+            width: 100%;
+            text-align: right;
+            position: relative;
+        }
+    
+    
+        .msg-body ul .repaly {
+            color: #fff;
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: 400;
+            padding: 15px;
+            background: hotpink;
+            display: inline-block;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            margin-bottom: 0;
+        }
+    
+        .msg-body ul .repaly p b {
+            display: block;
+            color: #061061;
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+    
+        .msg-body ul :after {
+            display: block;
+            content: '';
+            clear: both;
+        }
+    
+        .time {
+            display: block;
+            color: #000;
+            font-size: 12px;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+    
+        li.repaly .time {
+            margin-right: 20px;
+        }
+    
+        .divider {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+    
+        .msg-body h6 {
+            text-align: center;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #222;
+            background: #fff;
+            display: inline-block;
+            padding: 0 5px;
+            margin-bottom: 0;
+        }
+    
+        .divider:after {
+            display: block;
+            content: '';
+            clear: both;
+            position: absolute;
+            top: 12px;
+            left: 0;
+            border-top: 1px solid #EBEBEB;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    
+        .send-box {
+            padding: 15px;
+            border-top: 1px solid #ccc;
+        }
+    
+        .send-box div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+    
+        .send-box .form-control {
+            display: block;
+            width: 85%;
+            padding: 0.375rem 0.75rem;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #222;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ccc;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+    
+        .send-box button {
+            border: none;
+            background: #3867d6;
+            padding: 0.375rem 5px;
+            color: #fff;
+            border-radius: 0.25rem;
+            font-size: 14px;
+            font-weight: 400;
+            width: 24%;
+            margin-left: 1%;
+        }
+    
+        .send-box button i {
+            margin-right: 5px;
+        }
+    
+        .send-btns .button-wrapper {
+            position: relative;
+            width: 125px;
+            height: auto;
+            text-align: left;
+            margin: 0 auto;
+            display: block;
+            background: #F6F7FA;
+            border-radius: 3px;
+            padding: 5px 15px;
+            float: left;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            overflow: hidden;
+        }
+    
+        .send-btns .button-wrapper span.label {
+            position: relative;
+            z-index: 1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%;
+            cursor: pointer;
+            color: #343945;
+            font-weight: 400;
+            text-transform: capitalize;
+            font-size: 13px;
+        }
+    
+        #upload {
+            display: inline-block;
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+    
+        .send-btns .attach .form-control {
+            display: inline-block;
+            width: 120px;
+            height: auto;
+            padding: 5px 8px;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #343945;
+            background-color: #F6F7FA;
+            background-clip: padding-box;
+            border: 1px solid #F6F7FA;
+            border-radius: 3px;
+            margin-bottom: 5px;
+        }
+    
+        .send-btns .button-wrapper span.label img {
+            margin-right: 5px;
+        }
+    
+        .button-wrapper {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    
+        button:focus {
+            outline: 0;
+        }
+    
+        .add-apoint {
+            display: inline-block;
+            margin-left: 5px;
+        }
+    
+        .add-apoint a {
+            text-decoration: none;
+            background: #F6F7FA;
+            border-radius: 8px;
+            padding: 8px 8px;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.2;
+            color: #343945;
+        }
+    
+        .add-apoint a svg {
+            margin-right: 5px;
+        }
+    
+        .chat-icon {
+            display: none;
+        }
+    
+        .chat-iconic {
+            display: none;
+        }
+    
+        .closess i {
+            display: none;
+        }
+    
+    
+    
+        @media (max-width: 767px) {
+            .chat-icon {
+                display: block;
+                margin-right: 5px;
+            }
+    
+            .chat-iconic {
+                display: block;
+                margin-left: 5px;
+            }
+    
+    
+            .chatlist {
+                width: 100%;
+            }
+    
+            .chatbox {
+                width: 100%;
+                position: absolute;
+                left: 1000px;
+                right: 0;
+                background: #fff;
+                transition: all 0.5s ease;
+                border-left: none;
+            }
+    
+            .showbox {
+                left: 0 !important;
+                transition: all 0.5s ease;
+            }
+    
+            .msg-head h3 {
+                font-size: 14px;
+            }
+    
+            .msg-head p {
+                font-size: 12px;
+            }
+    
+            .msg-head .flex-shrink-0 img {
+                height: 30px;
+            }
+    
+            .send-box button {
+                width: 28%;
+            }
+    
+            .send-box .form-control {
+                width: 70%;
+            }
+    
+            .chat-list h3 {
+                font-size: 14px;
+            }
+    
+            .chat-list p {
+                font-size: 12px;
+            }
+    
+            .msg-body ul li.sender p {
+                font-size: 13px;
+                padding: 8px;
+                border-bottom-left-radius: 6px;
+                border-top-right-radius: 6px;
+                border-bottom-right-radius: 6px;
+            }
+    
+            .msg-body ul li.repaly p {
+                font-size: 13px;
+                padding: 8px;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+                border-bottom-left-radius: 6px;
+            }
+        }
+        
+       .modal-body button:hover {
+        background: hotpink !important;
+        color: white;
+        border-color: hotpink !important;
+    }
+    .modal-body button {transition-duration: 0s;
+    border-radius: 38px;
+    border: 0.5px solid black;
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, .25) !important;
+    background: white;
+    padding: 10px 20px;
+    
+    margin-bottom: 10px;
+    }
+        
+    @media screen and (max-width: 1220px) {
+          nav ul {
+            display: none;
+          }
+          .auth {
+            display: none;
+          }
+          li a {
+            float: none;
+            display: block;
+            text-align: center;
+          }
+          #resmenu {
+            display: block !important;
+          }
+          #resmenu i {
+            display: block !important;
+          }
+        }
+
+        .typing-indicator {
+        display: none;
+        align-items: center;
+    }
+    
+    .typing-indicator span {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin: 0 2px;
+        background-color: #aaa;
+        border-radius: 50%;
+        animation: typing 1s infinite;
+    }
+    
+    .typing-indicator span:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+    
+    .typing-indicator span:nth-child(3) {
+        animation-delay: 0.4s;
+    }
+    
+    @keyframes typing {
+        0%, 80%, 100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-10px);
+        }
+    }
+        .displaynone {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href='/' class="logo">
+            <h1>Admis</h1>
+        </a>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+        <ul class="menu" id="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Đánh giá</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#" class="login-button">Trợ lý ảo Admis</a></li>
+        </ul>
+    </nav>
+    <div class="subtab">
+        <div class="tab">
+            <span>TS10 Thường</span>
+            <div class="tabcontent">
+                <h3 class="title">TS10 Thường</h3>
+                <p class="title">Thí sinh thực hiện 3 bài thi gồm: Ngữ văn, Toán và Ngoại ngữ.</p>
+                <p class="title red"> Điểm xét tuyển = điểm Ngữ văn + điểm Ngoại ngữ + điểm Toán + điểm ưu tiên (nếu có).</p>
+            </div>
+        </div>
+        <div class="tab">
+            <span>TS10 Chuyên</span> 
+            <div class="tabcontent">
+                <h3 class="title" style="padding: 5px 15px; text-align: center;">TS10 Chuyên</h3>
+                <p class="title" style="padding: 5px 15px;">Các môn thi chuyên gồm Ngữ văn, Toán, Vật lý, Hóa học, Sinh học, Lịch sử, Địa lý, tiếng Anh, tiếng Trung, tiếng Nhật, tiếng Pháp, Tin học.
+                    Thí sinh thực hiện 3 bài thi gồm: Ngữ văn, Toán và Ngoại ngữ cùng một môn chuyên.</p>
+                <p class="title red" style="padding: 5px 15px;"> Điểm xét tuyển = điểm Ngữ văn + điểm Ngoại ngữ + điểm Toán + (điểm môn chuyên x2)</p>
+            </div>
+        </div>
+     <div class="tab">
+            <span>TS10 Tích hợp</span>
+            <div class="tabcontent">
+                <div class="tabconnon">
+                    <h3 class="title" style="text-align: right;">TS10 Tích hợp</h3>
+                    <p class="title">Đối với Nhóm 1 (Học sinh có tham gia học chương trình Tiếng Anh tích hợp cấp THCS tại TP Hồ Chí Minh):</p>
+                    <p class="title red">        Điểm xét tuyển = điểm Ngữ văn + điểm Ngoại ngữ + điểm Toán + điểm trung bình của chương trình tiếng Anh tích hợp lớp 9 THCS.
+                    </p>
+                    <p class="title">Đối với Nhóm 2 (Học sinh không tham gia học chương trình Tiếng Anh tích hợp cấp THCS tại TP Hồ Chí Minh):</p>
+                    <p class="title red"> Điểm xét tuyển = điểm Ngữ văn + điểm Ngoại ngữ + điểm Toán + điểm bài thi môn Tiếng Anh tích hợp.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <section class="message-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Navigation Bar -->
+          
+                    <!-- End of Navigation Bar -->
+    
+                    <div class="chat-area">
+                        <!-- chatlist -->
+                        <!-- chatbox -->
+                        <div class="chatbox showbox">
+                            <div class="modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="msg-head">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <div class="d-flex align-items-center">
+                                                    <span class="chat-icon"><img class="img-fluid"
+                                                            src="https://mehedihtml.com/chatbox/assets/img/arroleftt.svg"
+                                                            alt="image title"></span>
+                                                    <div class="flex-shrink-0">
+                                                        <img style="background: #fafafa; box-shadow: 4px 6px 36px -6px rgba(1, 1, 1, 0.5); margin: auto; padding: 10px; border-radius: 50%; height: 50px; margin: auto;"
+                                                            width="50" height="50" src="" alt="LEVIOOSA">
+                                                    </div>
+                                                    <div style="margin-left:  0.5em" class="flex-grow-1 ">
+                                                        <h3>Autism Bot</h3>
+                                                        <p>Chuyên viên tư vấn</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="modal-body">
+                                        <div class="msg-body">
+                                            <div style="display: flex;    align-items: center;"><div ><img alt="icon" loading="lazy" width="130" height="130" decoding="async" data-nimg="1" sizes="(max-width: 768px) 232px, 232px" src="/static/images/chatlo.png" style="color: transparent; object-fit: cover;"></div><div class="css-175oi2r m-auto mb-2 mt-2 flex-1 flex-col justify-center px-4"><div class="css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a mx-auto self-start bg-gradient-to-r from-[#49BCE2] to-[#FFC10E] bg-clip-text text-center font-sans text-28 font-bold text-transparent lg:mx-0 lg:flex lg:text-[48px]">Trợ lý AI Autism</div><div class="css-146c3p1 mx-auto text-clip text-16 font-semibold text-[rgba(133,138,139,1)] min-[410px]:text-20 lg:mx-0 lg:text-28">Xin chào!
+    Trợ lý AI Autism sẵn sàng hỗ trợ bạn.
+    Hôm nay tôi có thể giúp gì cho bạn?</div><div >Bạn có thể thử:</div><button onclick="handleBoxans(0)" ><div  style="border:none !important">
+        <div class="textmess">Bệnh viện nào khám và điều trị tự kỷ tốt nhất tại VN</div>
+    </div></button><button onclick="handleBoxans(1)"   type="button" style="transition-duration: 0s;">
+    <div style="border:none">
+        <div class="textmess">Phương pháp luyện tập tại nhà cho trẻ tự kỷ
+        </div></div></button>
+        <button onclick="handleBoxans(2)" ><div style="border:none">
+            <div class="textmess">Tôi muốn tìm bác sĩ chữa bệnh tự kỷ giỏi</div></div></button><div class="css-146c3p1 mt-2 text-justify text-14 font-normal text-[#AC9D9D] web:mb-9 native:mb-7 lg:text-16">- Trợ lý AI cung cấp thông tin y tế, sức khỏe nhằm hỗ trợ người dùng tìm hiểu thêm về các vấn đề sức khỏe thể chất và tinh thần. Tuy nhiên, thông tin này chỉ mang tính tham khảo, không nên tự ý áp dụng mà cần có sự tư vấn của bác sĩ chuyên khoa. Autism không chịu trách nhiệm cho bất kỳ vấn đề nào phát sinh do việc sử dụng thông tin này.
+    - Cuộc trò chuyện của bạn được sử dụng để cải tiến Trợ lý AI. Chúng tôi tôn trọng và bảo vệ quyền riêng tư của bạn, vì vậy nếu có thông tin bạn không muốn chia sẻ, vui lòng không đề cập trong cuộc trò chuyện.</div></div></div>
+                                            <ul id="chatLog" style="  overflow-y: auto;">
+                                                <div class="chat-message ">
+                                                    
+                                                </div>
+                                            </ul>
+                                            <div class="typing-indicator" id="typingIndicator">
+                                               <img src="/static/images/chatlo.png" width="40" height="40" alt=""> <span></span><span></span><span></span>
+                                            </div>
+                                         </div>
+                                    </div>
+    
+                                    <div class="send-box">
+                                        <div>
+                                            <input id="userInput" type="text" class="form-control" aria-label="message…"
+                                                placeholder="Aa..." value="">
+    
+                                            <button style="background-color: hotpink;" id="sendBtn" type="button"><i class="fa fa-paper-plane"
+                                                    aria-hidden="true"></i> Gửi tin nhắn</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- chatbox -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        &copy; 2024 Admis. All rights reserved.
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            const windowWidth = window.innerWidth;
+
+            // Check if window width is greater than 868px
+            if (windowWidth > 868) {
+                menu.style.display = 'flex';
+            } else {
+                // Toggle menu visibility based on current display property
+                if (menu.style.display === '' || menu.style.display === 'none') {
+                    menu.style.display = 'flex';
+                } else {
+                    menu.style.display = 'none';
+                }
+            }
+        }
+        window.addEventListener('resize', toggleMenu);
+    </script>
+   <script>
+    var currentdate = new Date();
+
+ function addZero(i) {
+    if (i < 10) {i = "0" + i}
+    return i;
+}
+
+var typingIndicator = document.getElementById('typingIndicator')
+
+var currentdate = new Date();
+const messages = document.getElementsByClassName('modal-body')[1];
+
+function addZero(i) {
+    if (i < 10) {i = "0" + i}
+    return i;
+}
+var start = (function () {
+    function scrollTop() {
+        return messages.scrollTop || messages.scrollTop
+    }
+
+    var top = scrollTop();
+    var interval;
+    messages.onscroll = function () {
+        var newtop = scrollTop();
+        if (newtop < top) {
+            clearInterval(interval);
+        }
+        top = newtop;
+    };
+    return function () {
+        interval = setInterval(function () {
+            messages.scrollBy(0, 200);
+        }, 0);
+    }
+}());
+
+
+// Function to find a matching reply
+
+
+// Function to add a user message to the chat log
+function addUserMessage(message) {
+    const chatLog = document.getElementById('chatLog');
+    const userMessage = document.createElement('div');
+    userMessage.classList.add('chat-message', 'user');
+    userMessage.innerHTML = `<p class="repaly">${message}</p>`;
+    userMessage.innerHTML += `<span style="float:right"class="time">${addZero(currentdate.getHours()) + ":" + addZero(currentdate.getMinutes())}</span>`;
+    chatLog.appendChild(userMessage);
+    chatLog.scrollTop = chatLog.scrollHeight;
+}
+
+// Function to add a bot message to the chat log
+function addBotMessage(message, gpt) {
+    const chatLog = document.getElementById('chatLog');
+    const botMessage = document.createElement('div');
+    botMessage.classList.add('chat-message', 'bot');
+    if (gpt) {
+        botMessage.innerHTML = `${message}`;
+    } else {
+        botMessage.innerHTML = `<p class="sender">${message}</p>`;
+    }
+    botMessage.innerHTML += '<span class="time">'+ addZero(currentdate.getHours()) + ":" + addZero(currentdate.getMinutes()) +'</span>'
+    chatLog.appendChild(botMessage);
+    chatLog.scrollTop = chatLog.scrollHeight;
+}
+
+const commonReplies = [
+    { input: 'Bệnh viện nào khám và điều trị tự kỷ tốt nhất tại VN', reply: true },
+    { input: 'Phương pháp luyện tập tại nhà cho trẻ tự kỷ', reply: true },
+    { input: 'Tôi muốn tìm bác sĩ chữa bệnh tự kỷ giỏi', reply: true },
+       // Add more common replies as needed
+];
+
+// Function to find a matching reply
+function findReply(message) {
+    message = message.toLowerCase();
+
+    for (let i = 0; i < commonReplies.length; i++) {
+        const commonInput = commonReplies[i].input.toLowerCase();
+
+        if (message.includes(commonInput)) {
+            if (message.includes("kết bạn rồi")) {
+                window.location.reload();
+            }
+            return commonReplies[i].reply;
+        }
+    }
+
+    return false;
+}
+// Function to handle user input
+function handleUserInput() {
+    const userInput = document.getElementById('userInput');
+    const message = userInput.value.trim();
+
+    if (message !== '') {
+        var reply = findReply(message)
+        addUserMessage(message);
+        userInput.value = '';
+        typingIndicator.style.display = "flex"
+        messages.scrollTop = messages.scrollHeight;
+        if (reply ==  false) { 
+            $.ajax({
+                url:  window.location.protocol + '//' + window.location.host + "/chatgpt/?prompt=" + message,
+                type: 'GET',
+                dataType: 'json', // added data type
+                success: function(res) {
+                    console.log(res);
+                    typingIndicator.style.display = "none"
+                    addBotMessage(res.message, false);
+                    messages.scrollTop = messages.scrollHeight;
+
+
+                }
+            }); 
+        } else {
+            setTimeout(() => {
+                addBotMessage(reply, false);
+                messages.scrollTop = messages.scrollHeight;
+            }, 500); // Simulate bot typing delay
+        }     
+        // setTimeout(() => {
+        //     addBotMessage(reply);
+        // }, 500); // Simulate bot typing delay
+
+        userInput.focus();
+    }
+}
+function handleBoxans(index) {
+    const message = document.getElementsByClassName('textmess')[index].innerText
+    if (message !== '') {
+        addUserMessage(message);
+        typingIndicator.style.display = "flex"
+        messages.scrollTop = messages.scrollHeight;
+        var reply = findReply(message)
+
+            $.ajax({
+                url:  window.location.protocol + '//' + window.location.host + "/chatgpt/?prompt=" + message,
+                type: 'GET',
+                dataType: 'json', // added data type
+                success: function(res) {
+                    console.log(res);
+                    if (reply) {
+                        res.message += '<a href="/schedule"style="text-decoration:none;display:block;transition-duration: 0s;border-radius: 38px;color:white;border: 0.5px solid hotpink;box-shadow: 0 4px 4px 0px rgba(0, 0, 0, .25) !important;background: hotpink;padding: 10px 20px;margin-bottom: 10px;"> Liên hệ bác sĩ để được tư vấn chi tiết hơn </a>'
+                    }
+                    typingIndicator.style.display = "none"
+                    addBotMessage(res.message, false);
+                    messages.scrollTop = messages.scrollHeight;
+
+
+                }
+            });  
+        // setTimeout(() => {
+        //     addBotMessage(reply);
+        // }, 500); // Simulate bot typing delay
+
+        userInput.focus();
+    }
+}
+
+// Event listener for send button click
+document.getElementById('sendBtn').addEventListener('click', handleUserInput);
+
+// Event listener for enter key press
+document.addEventListener('keypress', (event) => {
+    if (event.keyCode === 13 || event.which === 13) {
+        handleUserInput();
+    }
+});
+
+
+</script>
+</body>
+</html>

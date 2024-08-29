@@ -1,0 +1,24 @@
+[
+    {
+        "ten_truong": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": "",
+        "isChuyen": true,
+        "mon_chuyen": ""
+    },
+    {
+        "ten_truong": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": "",
+        "isChuyen": true,
+        "mon_chuyen": ""
+    }
+]

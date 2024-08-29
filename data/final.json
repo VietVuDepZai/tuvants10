@@ -1,0 +1,1964 @@
+[
+    {
+        "ten_truong": "Trường Phổ thông Năng Khiếu, Đại học Quốc gia TP.HCM",
+        "dia_chi": "153 Nguyễn Chí Thanh,Phường 9,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://ptnk.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Gia Định",
+        "dia_chi": "44 Võ Oanh,Phường 25,quận Bình Thạnh",
+        "quan_huyen": "Quận Bình Thạnh",
+        "ghichu": "https://thptgiadinh.hcm.edu.vn/Lưu trữ2016-12-07 tạiWayback Machine",
+        "nv1": 22.75,
+        "nv2": 23.25,
+        "nv3": 23.5
+    },
+    {
+        "ten_truong": "Trường THPT Mạc Đĩnh Chi",
+        "dia_chi": "4 Tân Hòa Đông,Phường 13,Quận 6",
+        "quan_huyen": "Quận 6",
+        "ghichu": "https://thptmacdinhchi.hcm.edu.vn/",
+        "nv1": 22.25,
+        "nv2": 23.25,
+        "nv3": 23.5
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Hữu Huân",
+        "dia_chi": "11 Đoàn Kết,P. Bình Thọ,TP. Thủ Đức",
+        "quan_huyen": "TP. Thủ Đức",
+        "ghichu": "https://thptnguyenhuuhuan.hcm.edu.vn/",
+        "nv1": 23,
+        "nv2": 23.5,
+        "nv3": 24
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Thượng Hiền",
+        "dia_chi": "544 Cách Mạng Tháng Tám,Phường 4,quận Tân Bình",
+        "quan_huyen": "Quận Tân Bình",
+        "ghichu": "https://thptnguyenthuonghien.hcm.edu.vn/Lưu trữ2016-11-27 tạiWayback Machine",
+        "nv1": 24,
+        "nv2": 25,
+        "nv3": 25.75
+    },
+    {
+        "ten_truong": "Trường THPT Năng khiếu Thể dục Thể thao TP.HCM",
+        "dia_chi": "43 Điện Biên Phủ,P. Đa Kao,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnangkhieutdtt.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Năng khiếu Thể dục Thể thao Nguyễn Thị Định",
+        "dia_chi": "215 Đường Hoàng Ngân,Phường 16,Quận 8",
+        "quan_huyen": "Quận 8",
+        "ghichu": "https://thptnangkhieutdttnguyenthidinh.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Phổ thông Năng khiếu Thể thao Olympic – Đại học Thể dục Thể thao TPHCM",
+        "dia_chi": "Đại học Thể dục Thể thao TPHCM,P. Linh Trung,TP. Thủ Đức",
+        "quan_huyen": "TP. Thủ Đức",
+        "ghichu": "https://nkttolympic.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Năng khiếu Thể dục Thể thao Bình Chánh",
+        "dia_chi": "A 10/3 D Mai Bá Hương,xã Lê Minh Xuân,huyện Bình Chánh",
+        "quan_huyen": "Trường chuyên thuộc các Trường Đại học",
+        "ghichu": "https://thptnangkhieutdttbinhchanh.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Bùi Thị Xuân",
+        "dia_chi": "73 Bùi Thị Xuân,P. Phạm Ngũ Lão",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbuithixuan.hcm.edu.vn/",
+        "nv1": 22,
+        "nv2": 22.25,
+        "nv3": 22.5
+    },
+    {
+        "ten_truong": "Trường THPT Trưng Vương",
+        "dia_chi": "3 Nguyễn Bỉnh Khiêm,P. Bến Nghé",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttrungvuong.hcm.edu.vn/",
+        "nv1": 20.75,
+        "nv2": 21,
+        "nv3": 21.25
+    },
+    {
+        "ten_truong": "Trường THPT Ernst Thälmann (Ten Lơ Man)",
+        "dia_chi": "8 Trần Hưng Đạo,P. Phạm Ngũ Lão",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttenloman.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Lương Thế Vinh",
+        "dia_chi": "131 Cô Bắc,P. Cô Giang",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptluongthevinh.hcm.edu.vn/",
+        "nv1": 20.25,
+        "nv2": 20.75,
+        "nv3": 21
+    },
+    {
+        "ten_truong": "Trường THPT Lê Quý Đôn",
+        "dia_chi": "10 Nguyễn Thị Minh Khai,P. Võ Thị Sáu",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://www.thpt-lequydon-hcm.edu.vn/",
+        "nv1": 22.25,
+        "nv2": 22.5,
+        "nv3": 22.75
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Thị Minh Khai",
+        "dia_chi": "275 Điện Biên Phủ,P. Võ Thị Sáu",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenthiminhkhai.hcm.edu.vn/",
+        "nv1": 23,
+        "nv2": 23.25,
+        "nv3": 23.75
+    },
+    {
+        "ten_truong": "Trường THPT Marie Curie",
+        "dia_chi": "159 Nam Kỳ Khởi Nghĩa,P. Võ Thị Sáu",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptmariecurie.hcm.edu.vn/",
+        "nv1": 19.5,
+        "nv2": 20.5,
+        "nv3": 21
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Thị Diệu",
+        "dia_chi": "12 Trần Quốc Toản,P. Võ Thị Sáu",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thptnguyenthidieu.edu.vn",
+        "nv1": 15,
+        "nv2": 15.75,
+        "nv3": 15.75
+    },
+    {
+        "ten_truong": "Trường THPT Lê Thị Hồng Gấm",
+        "dia_chi": "147 Pasteur,P. Võ Thị Sáu",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptlethihonggam.hcm.edu.vn/",
+        "nv1": 14.25,
+        "nv2": 14.75,
+        "nv3": 14.75
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Trãi",
+        "dia_chi": "Số 364 Nguyễn Tất Thành,Phường 18",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyentrai.hcm.edu.vn/",
+        "nv1": 13.25,
+        "nv2": 13.5,
+        "nv3": 13.75
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Hữu Thọ",
+        "dia_chi": "Số 2 Bến Vân Đồn,Phường 13",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenhuutho.hcm.edu.vn/",
+        "nv1": 15.75,
+        "nv2": 16.25,
+        "nv3": 16.5
+    },
+    {
+        "ten_truong": "Trường THPT Hùng Vương",
+        "dia_chi": "Số 124 Hồng Bàng,Phường 12",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpthungvuong.hcm.edu.vn/",
+        "nv1": 18,
+        "nv2": 18.5,
+        "nv3": 19.5
+    },
+    {
+        "ten_truong": "Trường Trung học Thực hành Sài Gòn",
+        "dia_chi": "Số 220 Trần Bình Trọng,Phường 4",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thuchanhsaigon.edu.vn/",
+        "nv1": 20.75,
+        "nv2": 21.25,
+        "nv3": 21.75
+    },
+    {
+        "ten_truong": "Trường Trung học Thực hành - Đại học Sư phạm TP.HCM",
+        "dia_chi": "Đại học Sư phạm TPHCM, Số 280 An Dương Vương,Phường 4",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trunghocthuchanhdhsp.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Trần Khai Nguyên",
+        "dia_chi": "Số 225 Nguyễn Tri Phương,Phường 9",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttrankhainguyen.hcm.edu.vn/Lưu trữ2016-11-23 tạiWayback Machine",
+        "nv1": 19.5,
+        "nv2": 19.75,
+        "nv3": 20
+    },
+    {
+        "ten_truong": "Trường THPT Trần Hữu Trang",
+        "dia_chi": "Số 276 Trần Hưng Đạo B,Phường 11",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttranhuutrang.hcm.edu.vn/",
+        "nv1": 13.25,
+        "nv2": 13.5,
+        "nv3": 14.25
+    },
+    {
+        "ten_truong": "Trường THPT Bình Phú",
+        "dia_chi": "Số 102 Trần Văn Kiểu,Phường 10",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbinhphuhcm.edu.vn/",
+        "nv1": 19.25,
+        "nv2": 19.5,
+        "nv3": 20
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Tất Thành",
+        "dia_chi": "Số 249 Nguyễn Văn Luông,Phường 11",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyentatthanh.hcm.edu.vn/",
+        "nv1": 16.75,
+        "nv2": 17,
+        "nv3": 17.75
+    },
+    {
+        "ten_truong": "Trường THPT Phạm Phú Thứ",
+        "dia_chi": "Số 425 - 435 Gia Phú,Phường 3",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptphamphuthu.hcm.edu.vn/",
+        "nv1": 14.25,
+        "nv2": 15.25,
+        "nv3": 15.75
+    },
+    {
+        "ten_truong": "Trường THPT Ngô Quyền",
+        "dia_chi": "Số 1360 Huỳnh Tấn Phát,Phường Phú Mỹ",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptngoquyen.hcm.edu.vn/",
+        "nv1": 18.5,
+        "nv2": 19,
+        "nv3": 19.25
+    },
+    {
+        "ten_truong": "Trường THPT Lê Thánh Tôn",
+        "dia_chi": "Số 124 Đường 17,Phường Tân Kiểng",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptlethanhton.hcm.edu.vn/",
+        "nv1": 17,
+        "nv2": 17.5,
+        "nv3": 17.75
+    },
+    {
+        "ten_truong": "Trường Tiểu học - THCS - THPT Nam Sài Gòn",
+        "dia_chi": "Khu A - Đô thị mới Nam Sài Gòn,Phường Tân Phú",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnamsaigon.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Tân Phong",
+        "dia_chi": "Số 15 FNguyễn Văn Linh,Phường Tân Phong",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttanphong.hcm.edu.vn/",
+        "nv1": 13.5,
+        "nv2": 13.75,
+        "nv3": 14
+    },
+    {
+        "ten_truong": "Trường THPT Lương Văn Can",
+        "dia_chi": "Số 173 Phạm Hùng,Phường 4",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptluongvancan.hcm.edu.vn/",
+        "nv1": 13,
+        "nv2": 13.5,
+        "nv3": 14.25
+    },
+    {
+        "ten_truong": "Trường THPT Ngô Gia Tự",
+        "dia_chi": "Số 360 E Bến Bình Đông,Phường 15",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptngogiatu.hcm.edu.vn/",
+        "nv1": 13.5,
+        "nv2": 13.5,
+        "nv3": 13.75
+    },
+    {
+        "ten_truong": "Trường THPT Tạ Quang Bửu",
+        "dia_chi": "Số 909 Tạ Quang Bửu,Phường 5",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttaquangbuu.hcm.edu.vn/",
+        "nv1": 15,
+        "nv2": 15.75,
+        "nv3": 16.75
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Văn Linh",
+        "dia_chi": "Số 2 Đường 3154 Phạm Thế Hiển,Phường 7",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thptnguyenvanlinh.hcm.edu.vn/[liên kết hỏng]",
+        "nv1": 10.75,
+        "nv2": 11.75,
+        "nv3": 12.75
+    },
+    {
+        "ten_truong": "Trường THPT Võ Văn Kiệt",
+        "dia_chi": "Số 629 Bến Bình Đông,Phường 13",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptvovankiet.hcm.edu.vn/",
+        "nv1": 16.25,
+        "nv2": 16.5,
+        "nv3": 17
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn An Ninh",
+        "dia_chi": "Số 93 Trần Nhân Tôn,Phường 2",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenanninh.hcm.edu.vn",
+        "nv1": 15,
+        "nv2": 15.25,
+        "nv3": 15.25
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Sương Nguyệt Anh",
+        "dia_chi": "Số 249 Hòa Hảo,Phường 2",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptsuongnguyetanh.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Du",
+        "dia_chi": "Số XX 1 Đồng Nai - Cư xá Bắc Hải,Phường 15",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyendu.hcm.edu.vn/",
+        "nv1": 19.25,
+        "nv2": 19.75,
+        "nv3": 20.25
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Khuyến",
+        "dia_chi": "Số 50 Thành Thái,Phường 12",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenkhuyen.hcm.edu.vn/",
+        "nv1": 18,
+        "nv2": 18.5,
+        "nv3": 18.5
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Diên Hồng",
+        "dia_chi": "Số 11 Thành Thái,Phường 14",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptdienhong.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Nam Kỳ Khởi Nghĩa",
+        "dia_chi": "Số 269/8 Nguyễn Thị Nhỏ,Phường 16",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnamkykhoinghia.hcm.edu.vn/",
+        "nv1": 15.25,
+        "nv2": 15.75,
+        "nv3": 16.5
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Hiền",
+        "dia_chi": "Số 03 Dương Đình Nghệ,Phường 8",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenhien.hcm.edu.vn/",
+        "nv1": 19.5,
+        "nv2": 20,
+        "nv3": 20.75
+    },
+    {
+        "ten_truong": "Trường THPT Trần Quang Khải",
+        "dia_chi": "Số 343 D Lạc Long Quân,Phường 5",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttranquangkhai.hcm.edu.vn/",
+        "nv1": 16.5,
+        "nv2": 16.75,
+        "nv3": 17
+    },
+    {
+        "ten_truong": "Trường THPT Võ Trường Toản",
+        "dia_chi": "Số 482 Nguyễn Thị Đặng,Phường Hiệp Thành",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://votruongtoanq12hcm.edu.vn/Lưu trữ2021-04-13 tạiWayback Machine",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Trường Chinh",
+        "dia_chi": "Số 01 DN 11,Phường Tân Hưng Thuận",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttruongchinh.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Thạnh Lộc",
+        "dia_chi": "Số 116 Nguyễn Thị Sáu (TL 30 ),Phường Thạnh Lộc",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpt-thanhloc-tphcm.edu.vn/",
+        "nv1": 16,
+        "nv2": 16.75,
+        "nv3": 16.75
+    },
+    {
+        "ten_truong": "Trường THPT An Lạc",
+        "dia_chi": "Số 595 Kinh Dương Vương,Phường An Lạc",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thptanlac.hcm.edu.vn/Lưu trữ2021-04-16 tạiWayback Machine",
+        "nv1": 15,
+        "nv2": 15.25,
+        "nv3": 15.75
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Hữu Cảnh",
+        "dia_chi": "Số 845 Hương Lộ 2,Phường Bình Trị Đông A",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenhuucanh.hcm.edu.vn/",
+        "nv1": 17.75,
+        "nv2": 18,
+        "nv3": 18.25
+    },
+    {
+        "ten_truong": "Trường THPT Bình Tân",
+        "dia_chi": "Số 117/4 H Hồ Văn Long,Phường Tân Tạo",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbinhtan.hcm.edu.vn/",
+        "nv1": 14.75,
+        "nv2": 15,
+        "nv3": 15
+    },
+    {
+        "ten_truong": "Trường THPT Bình Hưng Hòa",
+        "dia_chi": "Số 79/19 Đường số 4,Phường Bình Hưng Hòa",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbinhhunghoa.hcm.edu.vn/",
+        "nv1": 18.25,
+        "nv2": 18.75,
+        "nv3": 19
+    },
+    {
+        "ten_truong": "Trường THPT Vĩnh Lộc",
+        "dia_chi": "Số 87 Đường số 3,Phường Bình Hưng Hòa B",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptvinhloc.hcm.edu.vn/",
+        "nv1": 16.25,
+        "nv2": 17.25,
+        "nv3": 17.25
+    },
+    {
+        "ten_truong": "Trường THPT Võ Thị Sáu",
+        "dia_chi": "Số 95 Lê Văn Duyệt,Phường 3",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptvothisau.hcm.edu.vn/",
+        "nv1": 19.25,
+        "nv2": 19.25,
+        "nv3": 19.5
+    },
+    {
+        "ten_truong": "Trường THPT Phan Đăng Lưu",
+        "dia_chi": "Số 27 Nguyễn Văn Đậu,Phường 6",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptphandangluu.hcm.edu.vn/",
+        "nv1": 15.75,
+        "nv2": 16,
+        "nv3": 16
+    },
+    {
+        "ten_truong": "Trường THPT Hoàng Hoa Thám",
+        "dia_chi": "Số 6 Hoàng Hoa Thám,Phường 7",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpthoanghoatham.hcm.edu.vn/",
+        "nv1": 18,
+        "nv2": 18.25,
+        "nv3": 18.75
+    },
+    {
+        "ten_truong": "Trường THPT Thanh Đa",
+        "dia_chi": "Số 186 Nguyễn Xí,Phường 26",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://www.thptthanhda.edu.vn/",
+        "nv1": 14.75,
+        "nv2": 15.25,
+        "nv3": 15.5
+    },
+    {
+        "ten_truong": "Trường THPT Trần Văn Giàu",
+        "dia_chi": "Số 203/40 Đặng Thùy Trâm,Phường 13",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttranvangiau.hcm.edu.vn/",
+        "nv1": 17,
+        "nv2": 17.75,
+        "nv3": 18.25
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Trung Trực",
+        "dia_chi": "Số 9/168 Lê Đức Thọ,Phường 15",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyentrungtruc.hcm.edu.vn/",
+        "nv1": 17,
+        "nv2": 17.5,
+        "nv3": 18
+    },
+    {
+        "ten_truong": "Trường THPT Gò Vấp",
+        "dia_chi": "Số 90 A Nguyễn Thái Sơn,Phường 3",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptgovap.hcm.edu.vn/",
+        "nv1": 16.25,
+        "nv2": 16.5,
+        "nv3": 16.75
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Công Trứ",
+        "dia_chi": "Số 97 Quang Trung,Phường 8",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyencongtru.hcm.edu.vn/",
+        "nv1": 20,
+        "nv2": 20.5,
+        "nv3": 20.75
+    },
+    {
+        "ten_truong": "Trường THPT Trần Hưng Đạo",
+        "dia_chi": "Số 88/955 E Lê Đức Thọ,Phường 6",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttranhungdao.hcm.edu.vn/",
+        "nv1": 19.5,
+        "nv2": 20.25,
+        "nv3": 20.75
+    },
+    {
+        "ten_truong": "Trường THPT Phú Nhuận",
+        "dia_chi": "Số 5 Hoàng Minh Giám,Phường 9",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptphunhuan.hcm.edu.vn/",
+        "nv1": 22.25,
+        "nv2": 22.75,
+        "nv3": 23.75
+    },
+    {
+        "ten_truong": "Trường THPT Hàn Thuyên",
+        "dia_chi": "Số 37 Đặng Văn Ngữ,Phường 10",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpthanthuyen.hcm.edu.vn/",
+        "nv1": 15,
+        "nv2": 15.75,
+        "nv3": 16.5
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Thái Bình",
+        "dia_chi": "Số 913 - 915 Lý Thường Kiệt,Phường 9",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenthaibinh.hcm.edu.vn/",
+        "nv1": 16.75,
+        "nv2": 16.75,
+        "nv3": 17.25
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Chí Thanh",
+        "dia_chi": "Số 1 A Nguyễn Hiến Lê,Phường 13",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thpt-nguyenchithanh-tphcm.edu.vn/Lưu trữ2021-05-12 tạiWayback Machine",
+        "nv1": 18,
+        "nv2": 18.25,
+        "nv3": 18.5
+    },
+    {
+        "ten_truong": "Trường THPT Trần Phú",
+        "dia_chi": "Số 18 Lê Thúc Hoạch,Phường Phú Thọ Hòa",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpt-tranphu-tphcm.edu.vn/",
+        "nv1": 23,
+        "nv2": 23,
+        "nv3": 23.25
+    },
+    {
+        "ten_truong": "Trường THPT Tân Bình",
+        "dia_chi": "Số 19 Hoa Bằng,Phường Tân Sơn Nhì",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttanbinh.hcm.edu.vn/",
+        "nv1": 19.25,
+        "nv2": 20,
+        "nv3": 20.25
+    },
+    {
+        "ten_truong": "Trường THPT Tây Thạnh",
+        "dia_chi": "Số 27 Đường C 2,Phường Tây Thạnh",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttaythanh.hcm.edu.vn/",
+        "nv1": 20.75,
+        "nv2": 21.75,
+        "nv3": 22.75
+    },
+    {
+        "ten_truong": "Trường THPT Lê Trọng Tấn",
+        "dia_chi": "Số 5 Đường D 2,Phường Sơn Kỳ",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptletrongtan.hcm.edu.vn/",
+        "nv1": 19.25,
+        "nv2": 20.25,
+        "nv3": 20.75
+    },
+    {
+        "ten_truong": "Trường THPT Thủ Đức",
+        "dia_chi": "Số 166/24 Đặng Văn Bi,Phường Bình Thọ",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptthuduc.hcm.edu.vn/Lưu trữ2016-12-12 tạiWayback Machine",
+        "nv1": 20.25,
+        "nv2": 20.75,
+        "nv3": 21
+    },
+    {
+        "ten_truong": "Trường THPT Thủ Thiêm",
+        "dia_chi": "Số 1 Vũ Tông Phan,Phường An Phú, Quận 2 (cũ)",
+        "quan_huyen": "Quận 2 (cũ)",
+        "ghichu": "https://thptthuthiem.hcm.edu.vn/",
+        "nv1": 13.5,
+        "nv2": 13.75,
+        "nv3": 14.25
+    },
+    {
+        "ten_truong": "Trường THPT Giồng Ông Tố",
+        "dia_chi": "Số 200/10 Nguyễn Thị Định,Phường Bình Trưng Tây,Quận 2 (cũ)",
+        "quan_huyen": "Quận 2 (cũ)",
+        "ghichu": "https://thptgiongongto.hcm.edu.vn/",
+        "nv1": 16.5,
+        "nv2": 17,
+        "nv3": 17
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Huệ",
+        "dia_chi": "Số 13 Đường số 13,Phường Long Thạnh Mỹ,Quận 9 (cũ)",
+        "quan_huyen": "Quận 9 (cũ)",
+        "ghichu": "https://thptnguyenhue.hcm.edu.vn/",
+        "nv1": 15,
+        "nv2": 15.25,
+        "nv3": 15.75
+    },
+    {
+        "ten_truong": "Trường THPT Tam Phú",
+        "dia_chi": "Số 31 Phú Châu,Phường Tam Phú",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttamphu.hcm.edu.vn/",
+        "nv1": 17.75,
+        "nv2": 18,
+        "nv3": 18.25
+    },
+    {
+        "ten_truong": "Trường THPT Phước Long",
+        "dia_chi": "Số 18 D Dương Đình Hội,Phường Phước Long B, Quận 9 (cũ)",
+        "quan_huyen": "Quận 9 (cũ)",
+        "ghichu": "https://thptphuoclong.hcm.edu.vn/",
+        "nv1": 16,
+        "nv2": 16.25,
+        "nv3": 16.5
+    },
+    {
+        "ten_truong": "Trường THPT Long Trường",
+        "dia_chi": "Số 309 Võ Văn Hát,Phường Long Trường, Quận 9 (cũ)",
+        "quan_huyen": "Quận 9 (cũ)",
+        "ghichu": "https://thptlongtruong.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Hiệp Bình",
+        "dia_chi": "Số 63 Hiệp Bình,Phường Hiệp Bình Phước",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpthiepbinh.hcm.edu.vn/",
+        "nv1": 13.5,
+        "nv2": 13.75,
+        "nv3": 14
+    },
+    {
+        "ten_truong": "Trường THPT Đào Sơn Tây",
+        "dia_chi": "Số 53/5 Đường 10,Phường Linh Xuân",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptdaosontay.hcm.edu.vn/",
+        "nv1": 13,
+        "nv2": 13.25,
+        "nv3": 13.75
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Văn Tăng",
+        "dia_chi": "Số 1 - Khu tái định cư Long Bửu,Phường Long Bình, Quận 9 (cũ)",
+        "quan_huyen": "Quận 9 (cũ)",
+        "ghichu": "http://thptnguyenvantang.edu.vn/",
+        "nv1": 10.5,
+        "nv2": 11.5,
+        "nv3": 12.5
+    },
+    {
+        "ten_truong": "Trường THPT Linh Trung",
+        "dia_chi": "Số 5 Đường 16,Phường Linh Trung",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptlinhtrung.hcm.edu.vn/",
+        "nv1": 14.75,
+        "nv2": 15,
+        "nv3": 15.25
+    },
+    {
+        "ten_truong": "Trường THPT Bình Chiểu",
+        "dia_chi": "Số 88 B Lê Thị Hoa,Phường Bình Chiểu",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbinhchieu.hcm.edu.vn/",
+        "nv1": 13.5,
+        "nv2": 14,
+        "nv3": 15
+    },
+    {
+        "ten_truong": "Trường THPT Dương Văn Thì",
+        "dia_chi": "Số 161 Lã Xuân Oai,Phường Tăng Nhơn Phú A, Quận 9 (cũ)",
+        "quan_huyen": "Quận 9 (cũ)",
+        "ghichu": "https://thptduongvanthi.hcm.edu.vn/",
+        "nv1": 14.25,
+        "nv2": 14.75,
+        "nv3": 14.75
+    },
+    {
+        "ten_truong": "Trường THPT Bình Chánh",
+        "dia_chi": "Số D 17/1 D Huỳnh Văn Trí,Xã Bình Chánh",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbinhchanh.hcm.edu.vn/",
+        "nv1": 13,
+        "nv2": 13.75,
+        "nv3": 14
+    },
+    {
+        "ten_truong": "Trường THPT Lê Minh Xuân",
+        "dia_chi": "Số G 11/1 Ấp 7,Xã Lê Minh Xuân",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thptleminhxuan.edu.vn/Lưu trữ2021-05-17 tạiWayback Machine",
+        "nv1": 14.75,
+        "nv2": 15,
+        "nv3": 15.25
+    },
+    {
+        "ten_truong": "Trường THPT Đa Phước",
+        "dia_chi": "Số D 14/410 A Quốc lộ 50,Xã Đa Phước",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thptdaphuoc.edu.vn/Lưu trữ2021-10-20 tạiWayback Machine",
+        "nv1": 11,
+        "nv2": 11.25,
+        "nv3": 11.75
+    },
+    {
+        "ten_truong": "Trường THPT Tân Túc",
+        "dia_chi": "Số C 1/3 K Bùi Thanh Khiết,Thị trấn Tân Túc",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttantuc.hcm.edu.vn/",
+        "nv1": 13.5,
+        "nv2": 14.25,
+        "nv3": 14.75
+    },
+    {
+        "ten_truong": "Trường THPT Vĩnh Lộc B",
+        "dia_chi": "Đường số 3, Khu dân cư Vĩnh Lộc B,Xã Vĩnh Lộc B",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptvinhlocb.hcm.edu.vn/",
+        "nv1": 15.5,
+        "nv2": 15.5,
+        "nv3": 16
+    },
+    {
+        "ten_truong": "Trường THPT Phong Phú",
+        "dia_chi": "Số 2 Đường 14 B, KDC Phong Phú 4,Xã Phong Phú",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptphongphu.hcm.edu.vn/",
+        "nv1": 12,
+        "nv2": 12.5,
+        "nv3": 12.75
+    },
+    {
+        "ten_truong": "Trường THPT Bình Khánh",
+        "dia_chi": "Đường Rừng Sác, Ấp Bình An,Xã Bình Khánh",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbinhkhanh.hcm.edu.vn/",
+        "nv1": 10,
+        "nv2": 10,
+        "nv3": 10
+    },
+    {
+        "ten_truong": "Trường THPT Cần Thạnh",
+        "dia_chi": "Số 346 Duyên Hải,Thị trấn Cần Thạnh",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptcanthanh.hcm.edu.vn/",
+        "nv1": 10,
+        "nv2": 10,
+        "nv3": 10
+    },
+    {
+        "ten_truong": "Trường THPT An Nghĩa",
+        "dia_chi": "Đường Tam Thôn Hiệp, Ấp An Nghĩa,Xã An Thới Đông",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptannghia.hcm.edu.vn/",
+        "nv1": 10,
+        "nv2": 10,
+        "nv3": 10
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Thạnh An",
+        "dia_chi": "Ấp Thạnh Hoà,Xã đảo Thạnh An",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thcs-thptthanhan.hcm.edu.vn/",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Củ Chi",
+        "dia_chi": "Tỉnh lộ 8, Khu phố 1,Thị trấn Củ Chi",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thptcuchi.hcm.edu.vn/Lưu trữ2016-09-18 tạiWayback Machine",
+        "nv1": 16,
+        "nv2": 16.25,
+        "nv3": 16.5
+    },
+    {
+        "ten_truong": "Trường THPT Trung Phú",
+        "dia_chi": "Số 1318 Tỉnh lộ 8,Xã Tân Thạnh Đông",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttrungphu.hcm.edu.vn/",
+        "nv1": 15.25,
+        "nv2": 15.75,
+        "nv3": 16.25
+    },
+    {
+        "ten_truong": "Trường THPT An Nhơn Tây",
+        "dia_chi": "Số 1290 Tỉnh lộ 7,Xã An Nhơn Tây",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptannhontay.hcm.edu.vn/",
+        "nv1": 11,
+        "nv2": 11.5,
+        "nv3": 12.5
+    },
+    {
+        "ten_truong": "Trường THPT Quang Trung",
+        "dia_chi": "Tỉnh lộ 7, Ấp Phước An,Xã Phước Thạnh",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptquangtrung.hcm.edu.vn/",
+        "nv1": 12.5,
+        "nv2": 13,
+        "nv3": 13.5
+    },
+    {
+        "ten_truong": "Trường THPT Trung Lập",
+        "dia_chi": "Số 91/3 Trung Lập,Xã Trung Lập Thượng",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thpttrunglap.hcm.edu.vn/Lưu trữ2016-10-28 tạiWayback Machine",
+        "nv1": 11.25,
+        "nv2": 11.75,
+        "nv3": 12.5
+    },
+    {
+        "ten_truong": "Trường THPT Phú Hòa",
+        "dia_chi": "Huỳnh Thị Bẳng, Ấp Phú Lợi,Xã Phú Hòa Đông",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptphuhoa.hcm.edu.vn/",
+        "nv1": 13,
+        "nv2": 13.75,
+        "nv3": 14.75
+    },
+    {
+        "ten_truong": "Trường THPT Tân Thông Hội",
+        "dia_chi": "Đường Suối Lội, Ấp Bầu Sim,Xã Tân Thông Hội",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpttanthonghoi.hcm.edu.vn/",
+        "nv1": 14.25,
+        "nv2": 15.5,
+        "nv3": 16.5
+    },
+    {
+        "ten_truong": "Trường THPT Lý Thường Kiệt",
+        "dia_chi": "Đường Trần Thị Bốc,Xã Thới Tam Thôn",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptlythuongkiet.hcm.edu.vn/",
+        "nv1": 19.5,
+        "nv2": 20.5,
+        "nv3": 20.75
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Hữu Cầu",
+        "dia_chi": "Số 07 Nguyễn Ảnh Thủ, Xã Trung Chánh",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenhuucau.hcm.edu.vn/",
+        "nv1": 22.25,
+        "nv2": 22.5,
+        "nv3": 22.75
+    },
+    {
+        "ten_truong": "Trường THPT Bà Điểm",
+        "dia_chi": "Số 07 Nguyễn Thị Sóc, Xã Bà Điểm",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbadiem.hcm.edu.vn/",
+        "nv1": 18.25,
+        "nv2": 18.5,
+        "nv3": 19.25
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Hữu Tiến",
+        "dia_chi": "Số 9 A Ấp 7,Xã Đông Thạnh",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://thpt-nguyenhuutien-tphcm.edu.vn/",
+        "nv1": 17.75,
+        "nv2": 18.25,
+        "nv3": 18.5
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Văn Cừ",
+        "dia_chi": "Số 100 A Nguyễn Văn Bứa,Xã Xuân Thới Thượng",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenvancu.hcm.edu.vn/",
+        "nv1": 16.25,
+        "nv2": 16.25,
+        "nv3": 16.5
+    },
+    {
+        "ten_truong": "Trường THPT Phạm Văn Sáng",
+        "dia_chi": "Số 26/1 C Ấp 3,Xã Xuân Thới Sơn",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptphamvansang.hcm.edu.vn/",
+        "nv1": 16.5,
+        "nv2": 17,
+        "nv3": 17.25
+    },
+    {
+        "ten_truong": "Trường THPT Hồ Thị Bi",
+        "dia_chi": "Số 32 Tân Hiệp 28, Ấp Tân Thới 3,Xã Tân Hiệp",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thpthothibi.hcm.edu.vn/",
+        "nv1": 17.25,
+        "nv2": 18,
+        "nv3": 18
+    },
+    {
+        "ten_truong": "Trường THPT Long Thới",
+        "dia_chi": "Số 280 Nguyễn Văn Tạo,Xã Long Thới",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptlongthoi.hcm.edu.vn/",
+        "nv1": 11.75,
+        "nv2": 11.75,
+        "nv3": 12
+    },
+    {
+        "ten_truong": "Trường THPT Phước Kiển",
+        "dia_chi": "Số 1163 Lê Văn Lương,Xã Phước Kiển",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptphuockien.hcm.edu.vn/",
+        "nv1": 12.25,
+        "nv2": 12.5,
+        "nv3": 12.5
+    },
+    {
+        "ten_truong": "Trường THPT Dương Văn Dương",
+        "dia_chi": "Số 39 Đường 6, Khu dân cư Phú Gia,Xã Phú Xuân",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptduongvanduong.hcm.edu.vn/",
+        "nv1": 12.5,
+        "nv2": 13,
+        "nv3": 13.25
+    },
+    {
+        "ten_truong": "Trường tiểu học, THCS và THPT Hermann Gmeiner",
+        "dia_chi": "697 Quang Trung, Quận Gò Vấp, TPHCM",
+        "quan_huyen": "Quận Gò Vấp, TPHCM",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Đăng Khoa",
+        "dia_chi": "Cơ sở 1 : 571 Cô Bắc, Phường Cầu Ông Lãnh, Quận 1 Cơ sở 2 : 72 Đặng Văn Ngữ, Phường 10, Quận Phú Nhuận",
+        "quan_huyen": "Quận 1 Cơ sở 2 : 72 Đặng Văn Ngữ, Phường 10, Quận Phú Nhuận",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Nguyễn Bỉnh Khiêm",
+        "dia_chi": "28 - 30 Ngô Quyền, Phường 6, Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT An Đông",
+        "dia_chi": "91 Nguyễn Chí Thanh, Phường 9, Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Thăng Long",
+        "dia_chi": "CS 1 : 114 - 116 Hải Thượng Lãn Ông, Phường 10, Quận 5 CS 3 : 24 Đường 45 (số cũ: 12/78 Phan Huy Ích), Phường 14, Quận Gò Vấp",
+        "quan_huyen": "Quận 5 CS 3 : 24 Đường 45 (số cũ: 12/78 Phan Huy Ích), Phường 14, Quận Gò Vấp",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Khai Trí",
+        "dia_chi": "133 Nguyễn Trãi, Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Văn Lang",
+        "dia_chi": "2 - 4 Tân Thành, Phường 12, Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS, THPT Quang Trung Nguyễn Huệ",
+        "dia_chi": "CS 1 : 223 Nguyễn Tri Phương, Phường 9, Quận 5 CS 2 : 780 Nguyễn Kiệm, Phường 4, Quận Phú Nhuận",
+        "quan_huyen": "Quận 5 CS 2 : 780 Nguyễn Kiệm, Phường 4, Quận Phú Nhuận",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS – THPT Phan Bội Châu",
+        "dia_chi": "293 - 299 Nguyễn Đình Chi, Phường 9, Quận 6",
+        "quan_huyen": "Quận 6",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Quốc Trí",
+        "dia_chi": "313 Nguyễn Văn Luông, Phường 12",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Sao Việt",
+        "dia_chi": "Khu dân cư Him Lam, Tân Hưng",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Đức Trí",
+        "dia_chi": "CS 1 : 39/23 Bùi Văn Ba, Phường Tân Thuận ĐôngCS 2 : 742/10 Nguyễn Kiệm, Phường 4, Quận Phú Nhuận",
+        "quan_huyen": "Quận Phú Nhuận",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Đinh Thiện Lý",
+        "dia_chi": "Lô P 1, khu A, khu đô thị Phú Mỹ Hưng, Phường Tân Phong",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học - THCS - THPT Hoàng Gia",
+        "dia_chi": "CS 2 : 38 Đặng Đại Đô, Phường Tân PhongCS 3 : 02 đường D 2, An Lạc, Bình Tân",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Nhân Trí",
+        "dia_chi": "409 Sư Vạn Hạnh nối dài, Quận 10",
+        "quan_huyen": "Quận 10",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Duy Tân",
+        "dia_chi": "106 Nguyễn Giản Thanh, Phường 15, Quận 10",
+        "quan_huyen": "Quận 10",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Vạn Hạnh",
+        "dia_chi": "781 E Lê Hồng Phong, Phường 12, Quận 10",
+        "quan_huyen": "Quận 10",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Trương Vĩnh Ký",
+        "dia_chi": "CS 1 : 21 Trịnh Đình Trọng, Phường 5, Quận 11 CS 2 : 110 Bành Văn Trân, Phường 7, Quận Tân Bình",
+        "quan_huyen": "Quận 11 CS 2 : 110 Bành Văn Trân, Phường 7, Quận Tân Bình",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Trần Quốc Tuấn",
+        "dia_chi": "236/10 - 236/12 Thái Phiên, phường 8",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Bắc Sơn",
+        "dia_chi": "CS 1 : 338/24 Nguyễn Văn Quá, Phường Đông Hưng Thuận, Quận 12 CS 2 : 371 A-B Nguyễn Văn Quá, Phường Đông Hưng Thuận, Quận 12",
+        "quan_huyen": "Quận 12 CS 2 : 371 A-B Nguyễn Văn Quá, Phường Đông Hưng Thuận, Quận 12",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "20",
+        "dia_chi": "2007",
+        "quan_huyen": "Quận 1",
+        "ghichu": "Dừng hoạt động",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS và THPT Phùng Hưng",
+        "dia_chi": "27 Thạnh Lộc 02, Phường Thạnh Lộc, Quận 12",
+        "quan_huyen": "Quận 12",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Lạc Hồng",
+        "dia_chi": "CS 1 : 2276/5 Quốc lộ 1, Phường Trung Mỹ Tây, Quận 12 CS 2 : 556/4 Lê Thị Riêng, Phường Thới An, Quận 12",
+        "quan_huyen": "Quận 12 CS 2 : 556/4 Lê Thị Riêng, Phường Thới An, Quận 12",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Việt Âu",
+        "dia_chi": "30/2 Quốc lộ 1 A, phường Tân Thới Hiệp",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Ngọc Viễn Đông",
+        "dia_chi": "53/1 - 2 - 3 Đông Hưng Thuận 2, Tân Hưng Thuận",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Hoa Lư",
+        "dia_chi": "201 Phan Văn Hớn, phường Tân Thới Nhất",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Hàn Việt",
+        "dia_chi": "70 Tân Thới Nhất 8, phường Tân Thới Nhất",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Đông Dương",
+        "dia_chi": "103 Hà Huy Giáp, phường Thạnh Lộc",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Tuệ Đức",
+        "dia_chi": "8 Tân Thới Nhất 17, Tân Thới Nhất",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Mỹ Việt",
+        "dia_chi": "95 Phan Văn Hớn, Tân Thới Nhất",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Đông Đô",
+        "dia_chi": "12 B Nguyễn Hữu Cảnh, Phường 19, Quận Bình Thạnh",
+        "quan_huyen": "Quận Bình Thạnh",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Phan Hữu Ích",
+        "dia_chi": "480/81 A Lê Quang Định, Q Bình Thạnh",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Sài Gòn",
+        "dia_chi": "215 D-E, 217 Nơ Trang Long, Phường 12, Quận Bình Thạnh",
+        "quan_huyen": "Quận Bình Thạnh",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Vinschool",
+        "dia_chi": "CS 1 : 720 A Điện Biên Phủ, phường 22 CS 2 : 2 Tôn Đức Thắng, phường Bến Nghé, quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Anh Quốc",
+        "dia_chi": "48 Võ Oanh, phường 25",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Lam Sơn",
+        "dia_chi": "451/45 Xô Viết Nghệ Tĩnh, phường 25",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Hồng Hà",
+        "dia_chi": "CS 1 : 170 Quang Trung, Phường 10, Quận Gò VấpCS 2 : 342 Nguyễn Trọng Tuyển, Phường 2, Quận Tân Bình CS 3 : 14 A Đường 1, Phường 16, Quận Gò Vấp.",
+        "quan_huyen": "Quận Gò VấpCS 2 : 342 Nguyễn Trọng Tuyển, Phường 2, Quận Tân Bình CS 3 : 14 A Đường 1, Phường 16, Quận Gò Vấp.",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Phạm Ngũ Lão",
+        "dia_chi": "528 (số cũ 26 BC) Phan Văn Trị, Phường 7, Quận Gò Vấp",
+        "quan_huyen": "Quận Gò Vấp",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS, THPT Sài Gòn - Gia Định",
+        "dia_chi": "514 Lê Quang Định, phường 1, quận Gò Vấp",
+        "quan_huyen": "Quận Gò Vấp",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Nguyễn Tri Phương",
+        "dia_chi": "112/48 Bùi Quang Lá, phường 12",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Việt Nhật",
+        "dia_chi": "371 Nguyễn Kiệm, phường 3",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Việt Anh",
+        "dia_chi": "CS 1 : 160/72 Phan Huy Ích, Phường 12, Quận Gò VấpCS 2 : 269 A Nguyễn Trọng Tuyển, Phường 10, Quận Phú Nhuận",
+        "quan_huyen": "Quận Gò VấpCS 2 : 269 A Nguyễn Trọng Tuyển, Phường 10, Quận Phú Nhuận",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Lý Thái Tổ",
+        "dia_chi": "CS 1 : 1/22/2 A Nguyễn Oanh, phường 6 CS 2 : 54/5 C Phạm Văn Chiêu, phường 14",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Âu Lạc",
+        "dia_chi": "647 Nguyễn Oanh, phường 6",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học - THCS - THPT Đại Việt",
+        "dia_chi": "521 Lê Đức Thọ, phường 16",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Văn Hóa Việt",
+        "dia_chi": "181 Lê Đức Thọ, phường 17",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Hưng Đạo",
+        "dia_chi": "120/29/24 Thích Quảng Đức, Phường 4, Quận Phú Nhuận",
+        "quan_huyen": "Quận Phú Nhuận",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS – THPT Nguyễn Khuyến",
+        "dia_chi": "CS 1 : 136 Cộng Hòa, Phường 4, Quận Tân Bình (trả mặt bằng)CS 4 : 327 Đường số 3, Phường Hiệp Bình Phước, TP. Thủ Đức",
+        "quan_huyen": "Quận Tân Bình (trả mặt bằng)CS 4 : 327 Đường số 3, Phường Hiệp Bình Phước, TP. Thủ Đức",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Thái Bình",
+        "dia_chi": "10 Trương Hoàng Thanh, Phường 12, Quận Tân Bình",
+        "quan_huyen": "Quận Tân Bình",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Thanh Bình",
+        "dia_chi": "192/12 Nguyễn Thái Bình, Phường 12, Quận Tân Bình",
+        "quan_huyen": "Quận Tân Bình",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS và THPT Việt Thanh",
+        "dia_chi": "261 Cộng Hòa, Phường 13, Quận Tân Bình",
+        "quan_huyen": "Quận Tân Bình",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Việt Mỹ Anh",
+        "dia_chi": "806 Âu Cơ, phường 14",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Bắc Ái",
+        "dia_chi": "187 Gò Cầm Đệm, phường 10",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Hai Bà Trưng",
+        "dia_chi": "51/4 Nguyễn Thị Nhỏ, phường 9",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Thủ Khoa Huân",
+        "dia_chi": "481/8 Trường Chinh, phường 14",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Thái Bình Dương",
+        "dia_chi": "125 Bạch Đằng, phường 2",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Đào Duy Anh",
+        "dia_chi": "23 - 25 Nguyễn Văn Vịnh, Phường Hiệp Tân, Quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Hồng Đức",
+        "dia_chi": "CS 1 : Số 8 Hồ Đắc Di, Phường Tây Thạnh, Quận Tân PhúCS 2 : 118 Nam Hòa, Phường Phước Long A, TP. Thủ Đức",
+        "quan_huyen": "Quận Tân PhúCS 2 : 118 Nam Hòa, Phường Phước Long A, TP. Thủ Đức",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Nhân Văn",
+        "dia_chi": "17 Sơn Kỳ, Phường Sơn Kỳ, Quận Tân Phú.",
+        "quan_huyen": "Quận Tân Phú.",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Trãi (dân lập)",
+        "dia_chi": "380 Văn Cao, Phú Thọ Hòa, Q Tân phú",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Trí Đức",
+        "dia_chi": "CS 1 : 5 (số cũ 1333 A) Thoại Ngọc Hầu, Phường Hòa Thạnh, Quận Tân PhúCS 3 : Khu phố 5, đường DC 6, KCN Tân Bình, Phường Sơn Kỳ, Quận Tân Phú",
+        "quan_huyen": "Quận Tân PhúCS 3 : Khu phố 5, đường DC 6, KCN Tân Bình, Phường Sơn Kỳ, Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS và THPT Hòa Bình",
+        "dia_chi": "CS 2 : 152 Nguyễn Duy Dương, Phường 3, Quận 10 CS 1 : 69 Trịnh Đình Thảo, Phường Hòa Thạnh, Quận Tân Phú",
+        "quan_huyen": "Quận 10 CS 1 : 69 Trịnh Đình Thảo, Phường Hòa Thạnh, Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Khai Minh",
+        "dia_chi": "410 Tân Kỳ Tân Quý, Phường Sơn Kỳ, Quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Nam Việt",
+        "dia_chi": "CS 1 : 25, 21/1 - 3, 23/7 - 9 Dương Đức Hiền, Phường Tây Thạnh, Quận Tân PhúCS 2 : 17/15 B, 11 C Phan Văn Hớn, Phường Tân Thới Nhất, Quận 12 CS 3 : 599 A Lê Văn Thọ, Phường 14 ; Quận Gò Vấp",
+        "quan_huyen": "Quận Tân PhúCS 2 : 17/15 B, 11 C Phan Văn Hớn, Phường Tân Thới Nhất, Quận 12 CS 3 : 599 A Lê Văn Thọ, Phường 14 ; Quận Gò Vấp",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Vĩnh Viễn",
+        "dia_chi": "73/7 Lê Trọng Tấn, Phường Sơn Kỳ, Quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học, THCS, THPT Lê Thánh Tông",
+        "dia_chi": "22 Bờ Bao Tân Thắng, phường Sơn Kỳ, quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Minh Đức",
+        "dia_chi": "277 Tân Quý, phường Tân Quý, quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Tre Việt",
+        "dia_chi": "CS 1 : 42/39 - 42/41 Huỳnh Thiên Lộc, phường Hòa Thạnh, quận Tân PhúCS 2 : 26/25 M, 26/25 N, 26/25 P Xã Xuân Thới Đông, huyện Hóc Môn CS 3 : 3/5 và 007 Tân Chánh Hiệp 1, phường Tân Chánh Hiệp, quận 12",
+        "quan_huyen": "Quận Tân PhúCS 2 : 26/25 M, 26/25 N, 26/25 P Xã Xuân Thới Đông, huyện Hóc Môn CS 3 : 3/5 và 007 Tân Chánh Hiệp 1, phường Tân Chánh Hiệp, Quận 12",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Đinh Tiên Hoàng",
+        "dia_chi": "85 Chế Lan Viên, phường Tây Thạnh, quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Trần Cao Vân",
+        "dia_chi": "CS 1 : 126 Tô Hiệu, phường Hiệp Tân, quận Tân PhúCS 2 : 525 Phan Văn Trị, phường 5 quận Gò Vấp CS 3 : 512/22 A Thống Nhất, phường 6, quận Gò Vấp CS 4 : 88/20/20 Thạnh Lộc 40, phường Thạnh Lộc, quận 12",
+        "quan_huyen": "Quận Tân PhúCS 2 : 525 Phan Văn Trị, phường 5 Quận Gò Vấp CS 3 : 512/22 A Thống Nhất, phường 6, Quận Gò Vấp CS 4 : 88/20/20 Thạnh Lộc 40, phường Thạnh Lộc, Quận 12",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Nam Úc",
+        "dia_chi": "300 Hòa Bình, phường Hiệp Tân, quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Tân Phú",
+        "dia_chi": "519 Kênh Tân Hóa, phường Hòa Thạnh, quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Đông Á",
+        "dia_chi": "108 Lê Thúc Hoạch, phường Phú Thọ Hòa, quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT An Dương Vương",
+        "dia_chi": "51/4 Hòa Bình, phường Tân Thới Hòa",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Huỳnh Thúc Kháng",
+        "dia_chi": "108 Nguyễn Quý Anh, Phường Tân Sơn Nhì, Quận Tân Phú",
+        "quan_huyen": "Quận Tân Phú",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Ngôi Sao",
+        "dia_chi": "Đường số 18, P. Bình Trị Đông B",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS & THPT Phan Châu Trinh",
+        "dia_chi": "12 Đường 23, P. Bình Trị Đông B",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Phú Lâm",
+        "dia_chi": "721 Kinh Dương Vương, P. An Lạc",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Trần Nhân Tông",
+        "dia_chi": "200 Tân Hòa Đông, P. Bình Trị Đông A",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Chu Văn An",
+        "dia_chi": "Số 7 đường số 1, P. Bình Hưng Hòa",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Trí Tuệ Việt",
+        "dia_chi": "79 Đường số 3, KDC Vĩnh Lộc, P. Bình Hưng Hòa B",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Hàm Nghi",
+        "dia_chi": "",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Phương Nam",
+        "dia_chi": "KP 6, Phường Trường Thọ, TP. Thủ Đức",
+        "quan_huyen": "TP. Thủ Đức",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Ngô Thời Nhiệm",
+        "dia_chi": "CS chính: 65 D Hồ Bá Phấn, P. Phước Long ACS Gò Vấp: 2 A Phan Văn Trị, Phường 10, quận Gò VấpCS Bình Tân: 73/8 Võ Văn Kiệt, KP 2, P. An Lạc, Q. Bình TânCS MN Thủ Đức: 78/30 B Hồ Bá Phấn, P. Phước Long A",
+        "quan_huyen": "Quận Gò VấpCS Bình Tân: 73/8 Võ Văn Kiệt, KP 2, P. An Lạc, Q. Bình TânCS MN Thủ Đức: 78/30 B Hồ Bá Phấn, P. Phước Long A",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THCS - THPT Hoa Sen",
+        "dia_chi": "CS 1 : 26 Phan Châu Trinh, P. Hiệp PhúCS 2 : 674/7 Xa lộ Hà Nội, P. Hiệp PhúCS 3 : 190 Võ Văn Ngân, P. Hiệp Thọ",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Bách Việt",
+        "dia_chi": "653 Quốc lộ 13, KP 3, P. Hiệp Bình Phước",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT Chiến Thắng",
+        "dia_chi": "83 A Bùi Thị He, Thị trấn Củ Chi",
+        "quan_huyen": "Quận 1",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Thiếu Sinh Quân",
+        "dia_chi": "Ấp Bến Đình, xã Nhuận Đức, huyện Củ Chi",
+        "quan_huyen": "",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Quốc tế Thành phố Hồ Chí Minh",
+        "dia_chi": "28 Võ Trường Toản, P. An Phú, TP. Thủ Đức",
+        "quan_huyen": "TP. Thủ Đức",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Quốc tế Việt Nam - Phần Lan",
+        "dia_chi": "19 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7",
+        "quan_huyen": "Quận 7",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Quốc tế Thành phố Hồ Chí Minh - Học viện Mỹ",
+        "dia_chi": "16 Võ Trường Toản, P. An Phú, TP. Thủ Đức",
+        "quan_huyen": "TP. Thủ Đức",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học - THCS & THPT Việt Úc",
+        "dia_chi": "CS 1 : 594 Ba Tháng Hai, Phường 14, Quận 10 CS 2 : 202 Hoàng Văn Thụ, quận Phú NhuậnCS 3 : 1 Đường 20 - Khu Him Lam, Quận 7 CS 5 : 168 Phan Văn Trị, quận Gò VấpCS 6 : 99 Nguyễn Thị Thập, P. Tân Phú, Quận 7 CS 7 : 10 Mai Chí Thọ - Khu Đô thị mới Thủ Thiêm, TP. Thủ Đức",
+        "quan_huyen": "Quận 10 CS 2 : 202 Hoàng Văn Thụ, Quận Phú NhuậnCS 3 : 1 Đường 20 - Khu Him Lam, Quận 7 CS 5 : 168 Phan Văn Trị, Quận Gò VấpCS 6 : 99 Nguyễn Thị Thập, P. Tân Phú, Quận 7 CS 7 : 10 Mai Chí Thọ - Khu Đô thị mới Thủ Thiêm, TP. Thủ Đức",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Việt Mỹ",
+        "dia_chi": "19 A Cộng Hòa, Phường 12, quận Tân Bình",
+        "quan_huyen": "Quận Tân Bình",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Quốc tế Nam Sài Gòn",
+        "dia_chi": "78 Nguyễn Đức Cảnh, P. Tân Phong, Quận 7",
+        "quan_huyen": "Quận 7",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Hệ thống Trường Song ngữ Quốc tế EMASI",
+        "dia_chi": "Trường EMASI Nam Long: Số 147 đường số 8, Khu Dân cư Nam Long, P. Tân Thuận Đông, Quận 7 Trường EMASI Vạn Phúc: Số 2 đường số 5, Khu Đô thị Vạn Phúc, P. Hiệp Bình Phước, TP. Thủ Đức",
+        "quan_huyen": "Quận 7 Trường EMASI Vạn Phúc: Số 2 đường số 5, Khu Đô thị Vạn Phúc, P. Hiệp Bình Phước, TP. Thủ Đức",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Phổ thông Song ngữ Quốc tế Wellspring Saigon (Tiểu học - THCS - THPT Mùa Xuân)",
+        "dia_chi": "92 Nguyễn Hữu Cảnh, Quận Bình Thạnh",
+        "quan_huyen": "Quận Bình Thạnh",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Quốc tế Á Châu",
+        "dia_chi": "CS 2 : 4 Thái Văn Lung, P. Bến Nghé, Quận 1 CS 5 : 149 - 151 - 153 - 155 Võ Oanh, Phường 25, quận Bình ThạnhCS 7 : 226 A Pasteur, P. Võ Thị Sáu, Quận 3 CS 8 : 29 - 31 Trần Nhật Duật, P. Tân Định, Quận 1 CS 9 : 18 A 2 Cộng Hòa, Phường 12, quận Tân BìnhCS 10 : 177 Bis Cao Thắng, Phường 12, Quận 10 CS 11 : 117/11 - 19, 179 - 185 Nguyễn Văn Hướng, P. Thảo Điền, TP. Thủ Đức",
+        "quan_huyen": "Quận 1 CS 5 : 149 - 151 - 153 - 155 Võ Oanh, Phường 25, Quận Bình ThạnhCS 7 : 226 A Pasteur, P. Võ Thị Sáu, Quận 3 CS 8 : 29 - 31 Trần Nhật Duật, P. Tân Định, Quận 1 CS 9 : 18 A 2 Cộng Hòa, Phường 12, Quận Tân BìnhCS 10 : 177 Bis Cao Thắng, Phường 12, Quận 10 CS 11 : 117/11 - 19, 179 - 185 Nguyễn Văn Hướng, P. Thảo Điền, TP. Thủ Đức",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS-THPT Quốc tế Nam Mỹ (UTS)",
+        "dia_chi": "Cơ sở chính: Toà nhà UTS (Toà G) - Khu phức hợp giáo dục Trường ĐH Văn Lang (VLU CS 3 )Cổng 1 : 69/68 Đặng Thùy Trâm, Phường 13, quận Bình ThạnhCổng 2 : 80/68 Dương Quảng Hàm, Phường 5, quận Gò VấpCơ sở 2 : 360 D Bến Vân Đồn, Phường 1, Quận 4",
+        "quan_huyen": "Quận Bình ThạnhCổng 2 : 80/68 Dương Quảng Hàm, Phường 5, Quận Gò VấpCơ sở 2 : 360 D Bến Vân Đồn, Phường 1, Quận 4",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS, THPT quốc tế Nam Úc - Scotch AGS",
+        "dia_chi": "",
+        "quan_huyen": "",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT Tây Úc",
+        "dia_chi": "657 Lý Chính Thắng, P. Võ Thị Sáu, Quận 3",
+        "quan_huyen": "Quận 3",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học, THCS & THPT Quốc Tế",
+        "dia_chi": "305 Nguyễn Trọng Tuyển, Phường 10, quận Phú Nhuận",
+        "quan_huyen": "Quận Phú Nhuận",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường THPT quốc tế Việt Úc",
+        "dia_chi": "184/7 Lê Văn Sỹ, Phường 10, quận Phú Nhuận",
+        "quan_huyen": "Quận Phú Nhuận",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Quốc tế Hoa Kỳ",
+        "dia_chi": "286 Lãnh Binh Thăng, Phường 11, Quận 11",
+        "quan_huyen": "Quận 11",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường Tiểu học - THCS - THPT Albert Einstein",
+        "dia_chi": "16 đường số 12, KDC 13 C, xã Phong Phú, huyện Bình Chánh",
+        "quan_huyen": "",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường tiểu học - THCS - THPT quốc tế Bắc Mỹ",
+        "dia_chi": "KDC Him Lam, xã Bình Hưng, huyện Bình Chánh",
+        "quan_huyen": "",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    },
+    {
+        "ten_truong": "Trường phổ thông IVS",
+        "dia_chi": "Số 27 TL 02, Khu phố 3 A, P. Thạnh Lộc, Quận 12",
+        "quan_huyen": "Quận 12",
+        "ghichu": "",
+        "nv1": "",
+        "nv2": "",
+        "nv3": ""
+    }
+]

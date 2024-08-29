@@ -1,0 +1,149 @@
+[
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Anh",
+        "nv1": 36.5,
+        "nv2": 37.25,
+        "nv3": 37.5
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Địa",
+        "nv1": 28.25,
+        "nv2": 28.5,
+        "nv3": 28.75
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Hóa",
+        "nv1": 34.5,
+        "nv2": 34.75,
+        "nv3": 35.0
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Lý",
+        "nv1": 33.75,
+        "nv2": 34.0,
+        "nv3": 34.5
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Sinh",
+        "nv1": 33.25,
+        "nv2": 33.75,
+        "nv3": 34.0
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Sử",
+        "nv1": 25.0,
+        "nv2": 25.25,
+        "nv3": 25.5
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Tin",
+        "nv1": 34.5,
+        "nv2": 35.0,
+        "nv3": 35.25
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Toán",
+        "nv1": 38.0,
+        "nv2": 36.5,
+        "nv3": 37.0
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "monchuyen": "Văn",
+        "nv1": 34.25,
+        "nv2": 35.0,
+        "nv3": 35.25
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Anh",
+        "nv1": 37.25,
+        "nv2": 37.5,
+        "nv3": 38.0
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Địa",
+        "nv1": 34.25,
+        "nv2": 34.5,
+        "nv3": 34.75
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Hóa",
+        "nv1": 35.25,
+        "nv2": 35.5,
+        "nv3": 36.0
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Lý",
+        "nv1": 34.75,
+        "nv2": 35.25,
+        "nv3": 35.5
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Nhật",
+        "nv1": 30.25,
+        "nv2": 30.5,
+        "nv3": 30.75
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Pháp",
+        "nv1": 31.25,
+        "nv2": 31.5,
+        "nv3": 31.75
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Sinh",
+        "nv1": 35.0,
+        "nv2": 35.25,
+        "nv3": 35.75
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Sử",
+        "nv1": 27.25,
+        "nv2": 27.5,
+        "nv3": 27.75
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Tin",
+        "nv1": 37.5,
+        "nv2": 38.0,
+        "nv3": 38.25
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Toán",
+        "nv1": 37.5,
+        "nv2": 37.75,
+        "nv3": 38.0
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Trung",
+        "nv1": 28.75,
+        "nv2": 29.0,
+        "nv3": 29.25
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "monchuyen": "Văn",
+        "nv1": 36.25,
+        "nv2": 36.5,
+        "nv3": 36.75
+    }
+]

@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Anh",
+        "nv1": 36.5,
+        "nv2": 37.25,
+        "nv3": 37.5,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Địa",
+        "nv1": 28.25,
+        "nv2": 28.5,
+        "nv3": 28.75,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Hóa",
+        "nv1": 34.5,
+        "nv2": 34.75,
+        "nv3": 35.0,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Lý",
+        "nv1": 33.75,
+        "nv2": 34.0,
+        "nv3": 34.5,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Sinh",
+        "nv1": 33.25,
+        "nv2": 33.75,
+        "nv3": 34.0,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Sử",
+        "nv1": 25.0,
+        "nv2": 25.25,
+        "nv3": 25.5,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Tin",
+        "nv1": 34.5,
+        "nv2": 35.0,
+        "nv3": 35.25,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Toán",
+        "nv1": 38.0,
+        "nv2": 36.5,
+        "nv3": 37.0,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "monchuyen": "Văn",
+        "nv1": 34.25,
+        "nv2": 35.0,
+        "nv3": 35.25,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Anh",
+        "nv1": 37.25,
+        "nv2": 37.5,
+        "nv3": 38.0,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Địa",
+        "nv1": 34.25,
+        "nv2": 34.5,
+        "nv3": 34.75,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Hóa",
+        "nv1": 35.25,
+        "nv2": 35.5,
+        "nv3": 36.0,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Lý",
+        "nv1": 34.75,
+        "nv2": 35.25,
+        "nv3": 35.5,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Nhật",
+        "nv1": 30.25,
+        "nv2": 30.5,
+        "nv3": 30.75,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Pháp",
+        "nv1": 31.25,
+        "nv2": 31.5,
+        "nv3": 31.75,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Sinh",
+        "nv1": 35.0,
+        "nv2": 35.25,
+        "nv3": 35.75,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Sử",
+        "nv1": 27.25,
+        "nv2": 27.5,
+        "nv3": 27.75,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Tin",
+        "nv1": 37.5,
+        "nv2": 38.0,
+        "nv3": 38.25,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Toán",
+        "nv1": 37.5,
+        "nv2": 37.75,
+        "nv3": 38.0,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Trung",
+        "nv1": 28.75,
+        "nv2": 29.0,
+        "nv3": 29.25,
+        "isChuyen": true
+    },
+    {
+        "name": "Trường THPT chuyên Lê Hồng Phong",
+        "dia_chi": "235 Nguyễn Văn Cừ,Phường 4,Quận 5",
+        "quan_huyen": "Quận 5",
+        "ghichu": "http://www.thpt-lehongphong-tphcm.edu.vn/",
+        "monchuyen": "Văn",
+        "nv1": 36.25,
+        "nv2": 36.5,
+        "nv3": 36.75,
+        "isChuyen": true
+    }
+]

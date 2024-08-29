@@ -1,0 +1,101 @@
+[
+    {
+        "ten_truong": "Trường THPT chuyên Trần Đại Nghĩa",
+        "dia_chi": "20 Lý Tự Trọng,P. Bến Nghé,Quận 1",
+        "quan_huyen": "Quận 1",
+        "ghichu": "http://trandainghia.edu.vn/",
+        "nv1": 31.75,
+        "nv2": 32.25,
+        "nv3": 32.5,
+        "isChuyen": true,
+        "monchuyen": "Tích hợp"
+    },
+    {
+        "ten_truong": "Trường THPT Gia Định",
+        "dia_chi": "44 Võ Oanh,Phường 25,quận Bình Thạnh",
+        "quan_huyen": "Quận Bình Thạnh",
+        "ghichu": "https://thptgiadinh.hcm.edu.vn/Lưu trữ2016-12-07 tạiWayback Machine",
+        "nv1": 31.0,
+        "nv2": 31.5,
+        "nv3": 31.75,
+        "isChuyen": false,
+        "monchuyen": "Tích hợp"
+    },
+    {
+        "ten_truong": "Trường THPT Mạc Đĩnh Chi",
+        "dia_chi": "4 Tân Hòa Đông,Phường 13,Quận 6",
+        "quan_huyen": "Quận 6",
+        "ghichu": "https://thptmacdinhchi.hcm.edu.vn/",
+        "nv1": 26.25,
+        "nv2": 26.75,
+        "nv3": 27.0,
+        "isChuyen": false,
+        "monchuyen": "Tích hợp"
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Hữu Huân",
+        "dia_chi": "11 Đoàn Kết,P. Bình Thọ,TP. Thủ Đức",
+        "quan_huyen": "TP. Thủ Đức",
+        "ghichu": "https://thptnguyenhuuhuan.hcm.edu.vn/",
+        "nv1": 29.25,
+        "nv2": 30.25,
+        "nv3": 31.0,
+        "isChuyen": false,
+        "monchuyen": "Tích hợp"
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Thượng Hiền",
+        "dia_chi": "544 Cách Mạng Tháng Tám,Phường 4,quận Tân Bình",
+        "quan_huyen": "Quận Tân Bình",
+        "ghichu": "https://thptnguyenthuonghien.hcm.edu.vn/Lưu trữ2016-11-27 tạiWayback Machine",
+        "nv1": 30.75,
+        "nv2": 31.0,
+        "nv3": 31.25,
+        "isChuyen": false,
+        "monchuyen": "Tích hợp"
+    },
+    {
+        "ten_truong": "Trường THPT Bùi Thị Xuân",
+        "dia_chi": "73 Bùi Thị Xuân,P. Phạm Ngũ Lão",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptbuithixuan.hcm.edu.vn/",
+        "nv1": 31.25,
+        "nv2": 31.75,
+        "nv3": 32.0,
+        "isChuyen": false,
+        "monchuyen": "Tích hợp"
+    },
+    {
+        "ten_truong": "Trường THPT Lương Thế Vinh",
+        "dia_chi": "131 Cô Bắc,P. Cô Giang",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptluongthevinh.hcm.edu.vn/",
+        "nv1": 27.75,
+        "nv2": 28.5,
+        "nv3": 29.25,
+        "isChuyen": false,
+        "monchuyen": "Tích hợp"
+    },
+    {
+        "ten_truong": "Trường THPT Nguyễn Thị Minh Khai",
+        "dia_chi": "275 Điện Biên Phủ,P. Võ Thị Sáu",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptnguyenthiminhkhai.hcm.edu.vn/",
+        "nv1": 32.75,
+        "nv2": 33.25,
+        "nv3": 33.5,
+        "isChuyen": false,
+        "monchuyen": "Tích hợp"
+    },
+    {
+        "ten_truong": "Trường THPT Phú Nhuận",
+        "dia_chi": "Số 5 Hoàng Minh Giám,Phường 9",
+        "quan_huyen": "Quận 1",
+        "ghichu": "https://thptphunhuan.hcm.edu.vn/",
+        "nv1": 29.75,
+        "nv2": 30.25,
+        "nv3": 30.75,
+        "isChuyen": false,
+        "monchuyen": "Tích hợp"
+    }
+]

@@ -1,0 +1,1025 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>PathFindr</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Favicons -->
+  <link href="https://i.postimg.cc/jSNNWYds/logo-removebg-preview-1.png" rel="icon">
+  <link href="https://i.postimg.cc/jSNNWYds/logo-removebg-preview-1.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: PathFindr
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/PathFindr-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style type="text/css">
+   
+    /* *******************************
+message-area
+******************************** */
+.fa-solid {
+    margin-right: 5px;
+}
+.message-area {
+        /* height: 100vh;
+        overflow: hidden; */
+        padding: 30px 0;
+        background: #eae7dc;    }
+
+    .chat-area {
+        position: relative;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 0.3rem;
+        height: 80vh;
+        overflow: hidden;
+        min-height: calc(100% - 1rem);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0.1, 0.1)
+    }
+
+    .chatlist {
+        outline: 0;
+        height: 100%;
+        overflow: hidden;
+        width: 300px;
+        float: left;
+        padding: 15px;
+    }
+
+    .chat-area .modal-content {
+        border: none;
+        border-radius: 0;
+        outline: 0;
+        height: 100%;
+    }
+
+    .chat-area .modal-dialog-scrollable {
+        height: 100% !important;
+    }
+
+    .chatbox {
+        width: auto;
+        overflow: hidden;
+        height: 100%;
+        border-left: 1px solid #ccc;
+    }
+
+    .chatbox .modal-dialog,
+    .chatlist .modal-dialog {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .msg-search {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .chat-area .form-control {
+        display: block;
+        width: 80%;
+        padding: 0.375rem 0.75rem;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #222;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .chat-area .form-control:focus {
+        outline: 0;
+        box-shadow: inherit;
+    }
+
+    a.add img {
+        height: 36px;
+    }
+
+    .chat-area .nav-tabs {
+        border-bottom: 1px solid #dee2e6;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
+
+    .chat-area .nav-tabs .nav-item {
+        width: 100%;
+    }
+
+    .chat-area .nav-tabs .nav-link {
+        width: 100%;
+        color: #180660;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5;
+        text-transform: capitalize;
+        margin-top: 5px;
+        margin-bottom: -1px;
+        background: 0 0;
+        border: 1px solid transparent;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+
+    .chat-area .nav-tabs .nav-item.show .nav-link,
+    .chat-area .nav-tabs .nav-link.active {
+        color: #222;
+        background-color: #fff;
+        border-color: transparent transparent #000;
+    }
+
+    .chat-area .nav-tabs .nav-link:focus,
+    .chat-area .nav-tabs .nav-link:hover {
+        border-color: transparent transparent #000;
+        isolation: isolate;
+    }
+
+    .chat-list h3 {
+        color: #222;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        text-transform: capitalize;
+        margin-bottom: 0;
+    }
+
+    .chat-list p {
+        color: #343434;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-transform: capitalize;
+        margin-bottom: 0;
+    }
+
+    .chat-list a.d-flex {
+        margin-bottom: 15px;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .chat-list .active {
+        display: block;
+        content: '';
+        clear: both;
+        position: absolute;
+        bottom: 3px;
+        left: 34px;
+        height: 12px;
+        width: 12px;
+        background: #00DB75;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+
+    .msg-head h3 {
+        color: #222;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+
+    .msg-head p {
+        color: #343434;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-transform: capitalize;
+        margin-bottom: 0;
+    }
+
+    .msg-head {
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .moreoption {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .moreoption .navbar {
+        padding: 0;
+    }
+
+    .moreoption li .nav-link {
+        color: #222;
+        font-size: 16px;
+    }
+
+    .moreoption .dropdown-toggle::after {
+        display: none;
+    }
+
+    .moreoption .dropdown-menu[data-bs-popper] {
+        top: 100%;
+        left: auto;
+        right: 0;
+        margin-top: 0.125rem;
+    }
+
+    .msg-body ul {
+        overflow: hidden;
+        padding: 10px
+    }
+
+    .msg-body ul li {
+        list-style: none;
+        margin: 15px 0;
+    }
+
+    .msg-body ul p.sender {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .msg-body ul#chatLog:before {
+        display: block;
+        clear: both;
+        content: '';
+        position: absolute;
+        top: -6px;
+        left: -7px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 12px 15px 12px;
+        border-color: transparent transparent #f5f5f5 transparent;
+        -webkit-transform: rotate(-37deg);
+        -ms-transform: rotate(-37deg);
+        transform: rotate(-37deg);
+    }
+
+    .msg-body ul .sender {
+        color: #000;
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 400;
+        padding: 15px;
+        background: #f5f5f5;
+        display: inline-block;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-bottom: 0;
+    }
+
+    .msg-body ul .sender b {
+        display: block;
+        color: #180660;
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+
+    .msg-body ul .repaly {
+        display: block;
+        width: 100%;
+        text-align: right;
+        position: relative;
+    }
+
+
+    .msg-body ul .repaly {
+        color: #fff;
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 400;
+        padding: 15px;
+        background: #18d26e;
+        display: inline-block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-bottom: 0;
+    }
+
+    .msg-body ul .repaly p b {
+        display: block;
+        color: #061061;
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+
+    .msg-body ul :after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+
+    .time {
+        display: block;
+        color: #000;
+        font-size: 12px;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+    li.repaly .time {
+        margin-right: 20px;
+    }
+
+    .divider {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .msg-body h6 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #222;
+        background: #fff;
+        display: inline-block;
+        padding: 0 5px;
+        margin-bottom: 0;
+    }
+
+    .divider:after {
+        display: block;
+        content: '';
+        clear: both;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        border-top: 1px solid #EBEBEB;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .send-box {
+        padding: 15px;
+        border-top: 1px solid #ccc;
+    }
+
+    .send-box div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .send-box .form-control {
+        display: block;
+        width: 85%;
+        padding: 0.375rem 0.75rem;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #222;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .send-box button {
+        border: none;
+        background: #3867d6;
+        padding: 0.375rem 5px;
+        color: #fff;
+        border-radius: 0.25rem;
+        font-size: 14px;
+        font-weight: 400;
+        width: 24%;
+        margin-left: 1%;
+    }
+
+    .send-box button i {
+        margin-right: 5px;
+    }
+
+    .send-btns .button-wrapper {
+        position: relative;
+        width: 125px;
+        height: auto;
+        text-align: left;
+        margin: 0 auto;
+        display: block;
+        background: #F6F7FA;
+        border-radius: 3px;
+        padding: 5px 15px;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        overflow: hidden;
+    }
+
+    .send-btns .button-wrapper span.label {
+        position: relative;
+        z-index: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        cursor: pointer;
+        color: #343945;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-size: 13px;
+    }
+
+    #upload {
+        display: inline-block;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .send-btns .attach .form-control {
+        display: inline-block;
+        width: 120px;
+        height: auto;
+        padding: 5px 8px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #343945;
+        background-color: #F6F7FA;
+        background-clip: padding-box;
+        border: 1px solid #F6F7FA;
+        border-radius: 3px;
+        margin-bottom: 5px;
+    }
+
+    .send-btns .button-wrapper span.label img {
+        margin-right: 5px;
+    }
+
+    .button-wrapper {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    button:focus {
+        outline: 0;
+    }
+
+    .add-apoint {
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    .add-apoint a {
+        text-decoration: none;
+        background: #F6F7FA;
+        border-radius: 8px;
+        padding: 8px 8px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #343945;
+    }
+
+    .add-apoint a svg {
+        margin-right: 5px;
+    }
+
+    .chat-icon {
+        display: none;
+    }
+
+    .chat-iconic {
+        display: none;
+    }
+
+    .closess i {
+        display: none;
+    }
+
+
+
+    @media (max-width: 767px) {
+        .chat-icon {
+            display: block;
+            margin-right: 5px;
+        }
+
+        .chat-iconic {
+            display: block;
+            margin-left: 5px;
+        }
+
+
+        .chatlist {
+            width: 100%;
+        }
+
+        .chatbox {
+            width: 100%;
+            position: absolute;
+            left: 1000px;
+            right: 0;
+            background: #fff;
+            transition: all 0.5s ease;
+            border-left: none;
+        }
+
+        .showbox {
+            left: 0 !important;
+            transition: all 0.5s ease;
+        }
+
+        .msg-head h3 {
+            font-size: 14px;
+        }
+
+        .msg-head p {
+            font-size: 12px;
+        }
+
+        .msg-head .flex-shrink-0 img {
+            height: 30px;
+        }
+
+        .send-box button {
+            width: 28%;
+        }
+
+        .send-box .form-control {
+            width: 70%;
+        }
+
+        .chat-list h3 {
+            font-size: 14px;
+        }
+
+        .chat-list p {
+            font-size: 12px;
+        }
+
+        .msg-body ul li.sender p {
+            font-size: 13px;
+            padding: 8px;
+            border-bottom-left-radius: 6px;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+
+        .msg-body ul li.repaly p {
+            font-size: 13px;
+            padding: 8px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            border-bottom-left-radius: 6px;
+        }
+    }
+    
+   .modal-body button:hover {
+    background: #18d26e !important;
+    color: white;
+    border-color: #18d26e !important;
+}
+.modal-body button {transition-duration: 0s;
+border-radius: 38px;
+border: 0.5px solid black;
+box-shadow: 0 4px 4px 0px rgba(0, 0, 0, .25) !important;
+background: white;
+padding: 10px 20px;
+
+margin-bottom: 10px;
+}
+    
+    .typing-indicator {
+    display: none;
+    align-items: center;
+}
+
+.typing-indicator span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    background-color: #aaa;
+    border-radius: 50%;
+    animation: typing 1s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes typing {
+    0%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+
+<section class="message-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Navigation Bar -->
+      
+                <!-- End of Navigation Bar -->
+
+                <div class="chat-area">
+                    <!-- chatlist -->
+                    <div class="chatlist">
+                        <div class="modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="chat-header">
+                                    <div class="msg-search">
+                                        <input style="width:100%" type="text" class="form-control" id="inlineFormInputGroup"
+                                            placeholder="Tìm kiếm nhiệm vụ" aria-label="search">
+                                        <span class="chat-iconic"><img style="  transform: rotate(180deg);"
+                                                class="img-fluid" src="https://mehedihtml.com/chatbox/assets/img/arroleftt.svg"
+                                                alt="image title"></span>
+                                    </div>
+
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="Open-tab" data-bs-toggle="tab"
+                                                data-bs-target="#Open" type="button" role="tab" aria-controls="Open"
+                                                aria-selected="true">Liên hệ</button>
+                                        </li>
+                                    
+                                    </ul>
+                                </div>
+
+                                <div class="modal-body">
+                                    <!-- chat-list -->
+                                    <div class="chat-lists">
+                                        <div class="tab-content" id="myTabContent">
+                                            <div class="tab-pane fade show active" id="Open" role="tabpanel"
+                                                aria-labelledby="Open-tab">
+                                                <!-- chat-list -->
+                                                <div class="chat-list" style="
+                                                padding: 10px;">
+                                                    <a href="/" class="d-flex align-items-center">
+                                                        <div class="flex-shrink-0">
+                                                            <img style="background: #fafafa; box-shadow: 4px 6px 36px -6px rgba(1, 1, 1, 0.5); margin: auto; border-radius: 50%; margin: auto;"
+                                                                width="50" height="50" src="https://i.ibb.co/SnbvPY7/Thi-t-k-ch-a-c-t-n-1.png" alt="LEVIOOSA">
+                                                        </div>
+                                                        <div style="margin-left:  0.5em" class="flex-grow-1 ">
+                                                            <h3>PathFindr Bot</h3>
+                                                            <p>AI hỗ trợ</p>
+                                                        </div>
+                                                    </a>
+                                                    
+                                                </div>
+                                                <!-- chat-list -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- chat-list -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- chatlist -->
+                    <!-- chatbox -->
+                    <div class="chatbox showbox">
+                        <div class="modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="msg-head">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <div class="d-flex align-items-center">
+                                                <span class="chat-icon"><img class="img-fluid"
+                                                        src="https://mehedihtml.com/chatbox/assets/img/arroleftt.svg"
+                                                        alt="image title"></span>
+                                                <div class="flex-shrink-0">
+                                                    <img style="background: #fafafa; box-shadow: 4px 6px 36px -6px rgba(1, 1, 1, 0.5); margin: auto; border-radius: 50%; height: 50px; margin: auto;"
+                                                        width="50" height="50" src="https://i.ibb.co/SnbvPY7/Thi-t-k-ch-a-c-t-n-1.png" alt="LEVIOOSA">
+                                                </div>
+                                                <div style="margin-left:  0.5em" class="flex-grow-1 ">
+                                                    <h3>PathFindr Bot</h3>
+                                                    <p>Chuyên viên tư vấn</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="msg-body">
+                                        <div style="display: flex;    align-items: center;"><div ><img alt="icon" loading="lazy" width="130" height="130" decoding="async" data-nimg="1" sizes="(max-width: 768px) 232px, 232px" src="https://i.ibb.co/SnbvPY7/Thi-t-k-ch-a-c-t-n-1.png" style="color: transparent; object-fit: cover;"></div><div class="css-175oi2r m-auto mb-2 mt-2 flex-1 flex-col justify-center px-4"><div class="css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a mx-auto self-start bg-gradient-to-r from-[#49BCE2] to-[#FFC10E] bg-clip-text text-center font-sans text-28 font-bold text-transparent lg:mx-0 lg:flex lg:text-[48px]">Trợ lý AI PathFindr</div><div class="css-146c3p1 mx-auto text-clip text-16 font-semibold text-[rgba(133,138,139,1)] min-[410px]:text-20 lg:mx-0 lg:text-28">Xin chào!
+                                            Trợ lý AI PathFindr sẵn sàng hỗ trợ bạn.
+                                            Hôm nay tôi có thể giúp gì cho bạn?</div><div >Bạn có thể thử:</div><button onclick="handleBoxans(0)" ><div  style="border:none !important">
+                                                <div class="textmess"><i class="fa-solid fa-school"></i>Các THPT công lập trên địa bàn TP.HCM</div>
+                                            </div></button><button onclick="handleBoxans(1)"   type="button" style="transition-duration: 0s;">
+                                            <div style="border:none">
+                                                <div class="textmess"><i class="fa-solid fa-people-roof"></i>Các trường dạy nghề nổi tiếng trên địa bàn TP.HCM
+                                                </div></div></button>
+                                                <button onclick="handleBoxans(2)" >
+                                                    <div style="border:none">
+                                                    <div class="textmess"><i class="fa-solid fa-language"></i>Các trường quốc tế trên địa bàn TP.HCM</div></div></button><div class="css-146c3p1 mt-2 text-justify text-14 font-normal text-[#AC9D9D] web:mb-9 native:mb-7 lg:text-16">
+                                            </div></div></div>
+                                        <ul id="chatLog" style="  overflow-y: auto;">
+                                            <div class="chat-message " style="    display: none;">
+                                                <p class="sender"> Xin chào bạn, hiện tại bạn đang thắc mắc gì về tuyển sinh không? </p>
+                                                <span id="first"class="time">10:06 am</span>
+                                            </div>
+                                        </ul>
+                                        <div style="    padding: 0px 11px;" class="typing-indicator" id="typingIndicator">
+                                           <img style='position: relative;
+    top: -10px;'src="https://i.ibb.co/SnbvPY7/Thi-t-k-ch-a-c-t-n-1.png" width="40" height="40" alt=""> <span></span><span></span><span></span>
+                                        </div>
+                                     </div>
+                                </div>
+
+                                <div class="send-box">
+                                    <div>
+                                        <input id="userInput" type="text" class="form-control" aria-label="message…"
+                                            placeholder="Aa..." value="">
+
+                                        <button style="background-color: #18d26e;" id="sendBtn" type="button"><i class="fa fa-paper-plane"
+                                                aria-hidden="true"></i> Gửi tin nhắn</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- chatbox -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-6 footer-info">
+            <h3>PathFindr</h3>
+            <p style="font-size: 18px;">PathFindr là dịch vụ giúp tư vấn hướng nghiệp, hay hướng nghiệp khi đăng ký hồ sơ vào các trường cấp ba nhằm hỗ trợ một cá nhân nào đó trong việc lựa chọn ngành nghề phù hợp nhất với khả năng, sở thích của bản thân. Không chỉ là ngành nghề phù hợp, cá nhân đó cũng được tư vấn, hỗ trợ để chọn ngành nghề đáp ứng được nhu cầu nhân lực của xã hội lúc bấy giờ.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container
+
+">
+      <div class="copyright">
+        &copy; Copyright <strong><a href="https://3dviet.vercel.app">VietVu</a></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/aos/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/js/main.js"></script>
+  <script>
+       var currentdate = new Date();
+
+function addZero(i) {
+   if (i < 10) {i = "0" + i}
+   return i;
+}
+var first = document.getElementById("first")
+first.innerHTML = `<span class="time">${addZero(currentdate.getHours()) + ":" + addZero(currentdate.getMinutes())}</span>`;
+    var typingIndicator = document.getElementById('typingIndicator')
+      function toggleMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.classList.contains("displaynone")) {
+          menu.classList.remove("displaynone");
+        } else {
+          menu.classList.add("displaynone");
+        }
+      }
+        var currentdate = new Date();
+        const messages = document.getElementsByClassName('modal-body')[1];
+    
+        function addZero(i) {
+            if (i < 10) {i = "0" + i}
+            return i;
+        }
+        var start = (function () {
+            function scrollTop() {
+                return messages.scrollTop || messages.scrollTop
+            }
+    
+            var top = scrollTop();
+            var interval;
+            messages.onscroll = function () {
+                var newtop = scrollTop();
+                if (newtop < top) {
+                    clearInterval(interval);
+                }
+                top = newtop;
+            };
+            return function () {
+                interval = setInterval(function () {
+                    messages.scrollBy(0, 200);
+                }, 0);
+            }
+        }());
+    
+    
+        // Function to find a matching reply
+    
+    
+        // Function to add a user message to the chat log
+        function addUserMessage(message) {
+            const chatLog = document.getElementById('chatLog');
+            const userMessage = document.createElement('div');
+            userMessage.classList.add('chat-message', 'user');
+            userMessage.innerHTML = `<p class="repaly">${message}</p>`;
+            userMessage.innerHTML += `<span style="float:right"class="time">${addZero(currentdate.getHours()) + ":" + addZero(currentdate.getMinutes())}</span>`;
+            chatLog.appendChild(userMessage);
+            chatLog.scrollTop = chatLog.scrollHeight;
+        }
+    
+        // Function to add a bot message to the chat log
+        function addBotMessage(message, gpt) {
+            const chatLog = document.getElementById('chatLog');
+            const botMessage = document.createElement('div');
+            botMessage.classList.add('chat-message', 'bot');
+            if (gpt) {
+                botMessage.innerHTML = `${message}`;
+            } else {
+                botMessage.innerHTML = `<p class="sender">${message}</p>`;
+            }
+            botMessage.innerHTML += '<span class="time">'+ addZero(currentdate.getHours()) + ":" + addZero(currentdate.getMinutes()) +'</span>'
+            chatLog.appendChild(botMessage);
+            chatLog.scrollTop = chatLog.scrollHeight;
+        }
+        
+       const commonReplies = [
+            { input: 'Các THPT công lập trên địa bàn TP.HCM', reply: `<span>1 Quận 1 THPT B&ugrave;i Thị Xu&acirc;n https://thptbuithixuan.hcm.edu.vn<br />2 Quận 1 THPT Trưng Vương https://thpttrungvuong.hcm.edu.vn<br />3 Quận 1 THPT Ten Lơ Man https://thpttenloman.hcm.edu.vn<br />4 Quận 1 THPT Lương Thế Vinh https://thptluongthevinh.hcm.edu.vn/<br />5 Quận 1 THPT Năng Khiếu TDTT https://thptnangkhieutdtt.hcm.edu.vn<br />6 Quận 1 THPT Chuy&ecirc;n Trần Đại Nghĩa http://trandainghia.edu.vn/<br />7 Quận 1 Phổ th&ocirc;ng Năng Khiếu Thể Thao Olympic http://ptnangkhieuthethaoolympicqtd.hcm.edu.vn<br />9. TP Thủ Đức Khu vực 1 (Quận 2 cũ) THPT Thủ Thi&ecirc;m https://thptthuthiem.hcm.edu.vn<br />10 TP Thủ Đức Khu vực 1 (Quận 2 cũ) THPT Giồng &Ocirc;ng Tố https://thptgiongongto.hcm.edu.vn<br />11 Quận 3 THPT Nguyễn Thị Minh Khai https://thptnguyenthiminhkhai.hcm.edu.vn<br />12 Quận 3 THPT L&ecirc; Qu&iacute; Đ&ocirc;n http://www.thpt-lequydon-hcm.edu.vn/<br />13 Quận 3 THPT Marie Curie https://thptmariecurie.hcm.edu.vn<br />14 Quận 3 THPT L&ecirc; Thị Hồng Gấm https://thptlethihonggam.hcm.edu.vn<br />15 Quận 3 THPT Nguyễn Thị Diệu https://thptnguyenthidieu.hcm.edu.vn/<br />16 Quận 4 THPT Nguyễn Tr&atilde;i https://thptnguyentrai.hcm.edu.vn<br />17 Quận 4 THPT Nguyễn Hữu Thọ https://thptnguyenhuutho.hcm.edu.vn<br />18 Quận 5 Trung Học Thực H&agrave;nh S&agrave;i G&ograve;n http://thuchanhsaigon.edu.vn/<br />19 Quận 5 THPT Trần Hữu Trang https://thpttranhuutrang.hcm.edu.vn<br />20 Quận 5 Phổ Th&ocirc;ng Năng Khiếu, ĐHQG-HCM https://ptnk.edu.vn/<br />21 Quận 5 Trung học Thực h&agrave;nh Đại học Sư phạm TP.HCM http://trunghocthuchanhdhsp.edu.vn<br />22 Quận 5 THPT Chuy&ecirc;n L&ecirc; Hồng Phong http://www.thpt-lehongphong-tphcm.edu.vn/<br />23 Quận 5 THPT H&ugrave;ng Vương https://thpthungvuong.hcm.edu.vn<br />24 Quận 5 TH Thực H&agrave;nh ĐHSP http://trunghocthuchanhdhsp.edu.vn/<br />25 Quận 5 PT Năng Khiếu Đại Học Quốc Gia http://www.ptnk.edu.vn/<br />26 Quận 5 THPT Trần Khai Nguy&ecirc;n https://thpttrankhainguyen.hcm.edu.vn<br />27 Quận 6 THPT Mạc Đĩnh Chi https://thptmacdinhchi.hcm.edu.vn/<br />28 Quận 6 THPT B&igrave;nh Ph&uacute; https://thptbinhphuhcm.edu.vn/<br />29 Quận 6 THPT Nguyễn Tất Th&agrave;nh https://thptnguyentatthanh.hcm.edu.vn/<br />30 Quận 6 THPT Phạm Ph&uacute; Thứ https://thptphamphuthu.hcm.edu.vn<br />31 Quận 7 THPT Nam S&agrave;i G&ograve;n https://thptnamsaigon.hcm.edu.vn<br />32 Quận 7 THPT Ng&ocirc; Quyền https://thptngoquyen.hcm.edu.vn/<br />33 Quận 7 Trường Quốc tế Việt Nam - Phần Lan https://truongquoctevietnamphanlan.hcm.edu.vn<br />34 Quận 7 THPT T&acirc;n Phong https://thpttanphong.hcm.edu.vn<br />35 Quận 7 THPT L&ecirc; Th&aacute;nh T&ocirc;n https://thptlethanhton.hcm.edu.vn<br />36 Quận 8 THPT Nguyễn Văn Linh https://thptnguyenvanlinh.hcm.edu.vn<br />37 Quận 8 THPT Lương Văn Can https://thptluongvancan.hcm.edu.vn<br />38 Quận 8 THPT Ng&ocirc; Gia Tự https://thptngogiatu.hcm.edu.vn<br />39 Quận 8 THPT Tạ Quang Bửu https://thpttaquangbuu.hcm.edu.vn<br />40 Quận 8 THPT V&otilde; Văn Kiệt https://thptvovankiet.hcm.edu.vn<br />41 Quận 8 THPT Năng khiếu TDTT Nguyễn Thị Định http://thptnangkhieutdttnguyenthidinh.hcm.edu.vn/<br />42 TP Thủ Đức Khu vực 2 (Quận 9 cũ) THPT Dương Văn Th&igrave; https://thptduongvanthi.hcm.edu.vn<br />43 TP Thủ Đức Khu vực 2 (Quận 9 cũ) THPT Phước Long https://thptphuoclong.hcm.edu.vn<br />44 TP Thủ Đức Khu vực 2 (Quận 9 cũ) THPT Long Trường https://thptlongtruong.hcm.edu.vn/<br />45 TP Thủ Đức Khu vực 2 (Quận 9 cũ) THPT Nguyễn Huệ https://thptnguyenhue.hcm.edu.vn/<br />46 TP Thủ Đức Khu vực 2 (Quận 9 cũ) THPT Nguyễn Văn Tăng https://thptnguyenvantang.hcm.edu.vn/<br />47 Quận 10 THPT Nguyễn An Ninh https://thptnguyenanninh.hcm.edu.vn<br />48 Quận 10 THPT Nguyễn Khuyến https://thptnguyenkhuyen.hcm.edu.vn<br />49 Quận 10 THPT Nguyễn Du https://thptnguyendu.hcm.edu.vn<br />50 Quận 10 THPT SƯƠNG NGUYỆT ANH https://thptsuongnguyetanh.hcm.edu.vn<br />Tìm hiểu thêm tại:<br />https://phongtccb.hcm.edu.vn/c3conglap</span>`  },
+            { input: 'Phương pháp luyện tập tại nhà cho trẻ tự kỷ', reply: '' },
+            { input: 'Tôi muốn tìm bác sĩ chữa bệnh tự kỷ giỏi', reply: '' },
+               // Add more common replies as needed
+        ];
+    
+        // Function to find a matching reply
+        function findReply(message) {
+            message = message.toLowerCase();
+    
+            for (let i = 0; i < commonReplies.length; i++) {
+                const commonInput = commonReplies[i].input.toLowerCase();
+    
+                if (message.includes(commonInput)) {
+                    if (message.includes("kết bạn rồi")) {
+                        window.location.reload();
+                    }
+                    return commonReplies[i].reply;
+                }
+            }
+    
+            return false;
+        }
+        // Function to handle user input
+        function handleUserInput() {
+            const userInput = document.getElementById('userInput');
+            const message = userInput.value.trim();
+    
+            if (message !== '') {
+                var reply = findReply(message)
+                addUserMessage(message);
+                userInput.value = '';
+                typingIndicator.style.display = "flex"
+                messages.scrollTop = messages.scrollHeight;
+                if (reply ==  false) { 
+                    $.ajax({
+                        url:  window.location.protocol + '//' + window.location.host + "/chatgpt/?prompt=" + message,
+                        type: 'GET',
+                        dataType: 'json', // added data type
+                        success: function(res) {
+                            console.log(res);
+                            typingIndicator.style.display = "none"
+                            addBotMessage(res.message, false);
+                            messages.scrollTop = messages.scrollHeight;
+    
+    
+                        }
+                    }); 
+                } else {
+                    setTimeout(() => {
+                        addBotMessage(reply, false);
+                        messages.scrollTop = messages.scrollHeight;
+                    }, 500); // Simulate bot typing delay
+                }     
+                // setTimeout(() => {
+                //     addBotMessage(reply);
+                // }, 500); // Simulate bot typing delay
+    
+                userInput.focus();
+            }
+        }
+        function handleBoxans(index) {
+            const message = document.getElementsByClassName('textmess')[index].innerText
+            if (message !== '') {
+                addUserMessage(message);
+                typingIndicator.style.display = "flex"
+                messages.scrollTop = messages.scrollHeight;
+                var reply = findReply(message)
+                if (reply ==  false) { 
+                    $.ajax({
+                        url:  window.location.protocol + '//' + window.location.host + "/chatgpt/?prompt=" + message,
+                        type: 'GET',
+                        dataType: 'json', // added data type
+                        success: function(res) {
+                            console.log(res);
+                            typingIndicator.style.display = "none"
+                            addBotMessage(res.message, false);
+                            messages.scrollTop = messages.scrollHeight;
+    
+    
+                        }
+                    });  
+                // setTimeout(() => {
+                //     addBotMessage(reply);
+                // }, 500); // Simulate bot typing delay
+                }else {
+                    setTimeout(() => {
+                        addBotMessage(reply, false);
+                        messages.scrollTop = messages.scrollHeight;
+                        typingIndicator.style.display = "none"
+
+                    }, 500); // Simulate bot typing delay
+                }    
+                userInput.focus();
+            }
+        }
+    
+        // Event listener for send button click
+        document.getElementById('sendBtn').addEventListener('click', handleUserInput);
+    
+        // Event listener for enter key press
+        document.addEventListener('keypress', (event) => {
+            if (event.keyCode === 13 || event.which === 13) {
+                handleUserInput();
+            }
+        });
+    
+    
+    </script>
+    
+
+</body>
+</html>
+
